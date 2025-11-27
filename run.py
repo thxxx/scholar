@@ -200,10 +200,10 @@ for i in range(100):
             html = drv.page_source
             soup = BeautifulSoup(html, "html.parser")
 
-            assert "solving the above CAPTCHA" not in soup.text
+            assert "solving the above CAPTCHA" not in soup.text, "CAPTCHA detected!"
         except Exception as e:
             print("error ", e)
-            time.sleep(3000.0)
+            time.sleep(12000.0)
             continue
         is_ok = get_titles_and_author_ids(soup)
         if count == len(datas):
@@ -214,11 +214,11 @@ for i in range(100):
         sdf = pd.DataFrame(searched_combs)
         sdf.to_csv("searched_combs.csv", index=False)
         if not is_ok:
-            time.sleep(3000.0)
+            time.sleep(12000.0)
         
         # 40번 크롤링 하고나면 5분간 쉬기
         if scrape_count % 30 == 29:
             print("\n\nSleeping for 5 minutes\n\n")
-            time.sleep(random_float(270.0, 340.0))
+            time.sleep(random_float(370.0, 440.0))
         time.sleep(random_float(15.0, 24.0))
         count = len(datas)
