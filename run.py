@@ -176,6 +176,7 @@ def get_titles_and_author_ids(bsoup):
     return True
 
 count = len(datas)
+scrape_count = 0
 for i in range(100):
     rdns = sample_hap()
     k = rdns[0]
@@ -183,6 +184,7 @@ for i in range(100):
 
     indexes = random.sample([b for b in range(50)], k=15)
     for idx in indexes:
+        scrape_count += 1
         searched_combs.append(f"{k}_{n}_{idx}")
         pn = idx*10
         try:
@@ -195,7 +197,7 @@ for i in range(100):
             assert "solving the above CAPTCHA" not in soup.text
         except Exception as e:
             print("error ", e)
-            time.sleep(300.0)
+            time.sleep(3000.0)
             continue
         is_ok = get_titles_and_author_ids(soup)
         if count == len(datas):
@@ -206,6 +208,8 @@ for i in range(100):
         sdf = pd.DataFrame(searched_combs)
         sdf.to_csv("searched_combs.csv", index=False)
         if not is_ok:
+            time.sleep(3000.0)
+        if scrape_count % 40 == 39:
             time.sleep(300.0)
         time.sleep(15.0)
         count = len(datas)
