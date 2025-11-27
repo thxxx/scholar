@@ -3,6 +3,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException, JavascriptException
 from selenium_stealth import stealth
 from bs4 import BeautifulSoup
+from collections import defaultdict
+import pandas as pd
+import csv
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -126,10 +129,8 @@ def sample_hap():
     weights = [item["ratio_percent"] for item in surnames]
     return [random.choices(keywords, k=1)[0].lower(), random.choices(names, weights=weights, k=1)[0].lower()]
 
-
-from collections import defaultdict
-import pandas as pd
-import csv
+def random_float(min_val, max_val):
+    return random.uniform(min_val, max_val)
 
 author_list = defaultdict(list)
 paper_list = defaultdict(list)
@@ -146,20 +147,25 @@ def get_titles_and_author_ids(bsoup):
             author_ids = [re.sub('&hl=en&oi=sra', '', a['href']) for a in paper.find("div", class_=re.compile("gs_a")).find_all("a")]
             author_names = [a.text for a in paper.find("div", class_=re.compile("gs_a")).find_all("a")]
             matches = re.findall(r"20\d{2}", paper.find("div", class_=re.compile("gs_a")).text)
-            paper_year = matches[-1]
-    
-            ctns = paper.find("div", class_=re.compile("gs_flb")).find_all("a")
-            citation_nums = 0
-            if len(ctns)>2:
-                cttext = ctns[2].text
-                if "Related" not in cttext:
-                    cttext = cttext[len("Cited by "):]
-                    if cttext.isdigit():
-                        citation_nums = int(cttext)
-            
-            paper_year = 0
-            if paper_year and paper_year.isdigit():
-                paper_year = int(paper_year)
+
+            try:
+                ctns = paper.find("div", class_=re.compile("gs_flb")).find_all("a")
+                citation_nums = 0
+                if len(ctns)>2:
+                    cttext = ctns[2].text
+                    if "Related" not in cttext:
+                        cttext = cttext[len("Cited by "):]
+                        if cttext.isdigit():
+                            citation_nums = int(cttext)
+                
+                paper_year = 0
+                if len(matches)>0 and matches[-1].isdigit():
+                    paper_year = matches[-1]
+                    paper_year = int(paper_year)
+            except Exception as e:
+                print("In citation number error ", e)
+                citation_nums = 0
+                paper_year = 0
     
             for ai in range(len(author_ids)):
                 author_list[author_ids[ai]].append(title)
@@ -189,7 +195,7 @@ for i in range(100):
         pn = idx*10
         try:
             drv.get(f"https://scholar.google.com/scholar?start={pn}?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=")
-            time.sleep(5.0)
+            time.sleep(7.0)
             
             html = drv.page_source
             soup = BeautifulSoup(html, "html.parser")
@@ -209,7 +215,10 @@ for i in range(100):
         sdf.to_csv("searched_combs.csv", index=False)
         if not is_ok:
             time.sleep(3000.0)
-        if scrape_count % 40 == 39:
-            time.sleep(300.0)
-        time.sleep(15.0)
+        
+        # 40번 크롤링 하고나면 5분간 쉬기
+        if scrape_count % 30 == 29:
+            print("\n\nSleeping for 5 minutes\n\n")
+            time.sleep(random_float(270.0, 340.0))
+        time.sleep(random_float(15.0, 24.0))
         count = len(datas)
