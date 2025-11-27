@@ -149,14 +149,17 @@ def get_titles_and_author_ids(bsoup):
             paper_year = matches[-1]
     
             ctns = paper.find("div", class_=re.compile("gs_flb")).find_all("a")
+            citation_nums = 0
             if len(ctns)>2:
-                citation_nums = ctns[2].text
-                if "Related" not in citation_nums:
-                    citation_nums = citation_nums[len("Cited by "):]
-                else:
-                    citation_nums = "0"
-            else:
-                citation_nums = "0"
+                cttext = ctns[2].text
+                if "Related" not in cttext:
+                    cttext = cttext[len("Cited by "):]
+                    if cttext.isdigit():
+                        citation_nums = int(cttext)
+            
+            paper_year = 0
+            if paper_year and paper_year.isdigit():
+                paper_year = int(paper_year)
     
             for ai in range(len(author_ids)):
                 author_list[author_ids[ai]].append(title)
@@ -164,8 +167,8 @@ def get_titles_and_author_ids(bsoup):
                     "title": title,
                     "author_id": author_ids[ai],
                     "author_names": author_names[ai],
-                    "paper_year": int(paper_year) if paper_year else None,
-                    "citation_nums": int(citation_nums)
+                    "paper_year": paper_year,
+                    "citation_nums": citation_nums
                 })
         except Exception as e:
             print("In paper error ", e)
@@ -196,9 +199,7 @@ for i in range(100):
             continue
         is_ok = get_titles_and_author_ids(soup)
         if count == len(datas):
-            print("No new data found")
-            time.sleep(300.0)
-            continue
+            print("No new data found", k, n)
         print("Data lens : ", len(datas))
         df = pd.DataFrame(datas)
         df.to_csv("output.csv", index=False)
