@@ -9,6 +9,16 @@ import csv
 import time
 import re
 import random
+import math
+
+def human_sleep(base: float, jitter: float = 0.5):
+    """
+    base 초를 기준으로, +- jitter 범위에서 살짝 흔들어주는 휴식.
+    예: base=5, jitter=2 -> 3~7초 사이로 랜덤.
+    """
+    duration = random.uniform(base - jitter, base + jitter)
+    duration = max(0.5, duration)  # 최소 0.5초는 쉬기
+    time.sleep(duration)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
