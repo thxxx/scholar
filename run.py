@@ -217,6 +217,54 @@ def random_step_scroll(driver):
     driver.execute_script(f"window.scrollTo(0, {current_y});")
     time.sleep(random.uniform(0.4, 1.0))
 
+def human_like_scroll(driver):
+    """
+    - 맨 위에서 약간만 내렸다가
+    - 결과 중간/하단 쪽으로 점프
+    - 살짝 위로 올리기
+    - 마지막에 약간의 미세 스크롤
+    """
+    try:
+        total_height = driver.execute_script("return document.body.scrollHeight") or 2000
+        # 시작 위치
+        current_y = driver.execute_script("return window.pageYOffset || document.documentElement.scrollTop") or 0
+
+        # 1) 살짝 내린다
+        step1 = random.randint(100, 400)
+        current_y += step1
+        driver.execute_script(f"window.scrollTo(0, {current_y});")
+        human_sleep(random.uniform(0.5, 1.5))
+
+        # 2) 중간쯤 점프
+        mid_y = int(total_height * random.uniform(0.3, 0.6))
+        driver.execute_script(f"window.scrollTo(0, {mid_y});")
+        human_sleep(random.uniform(0.8, 2.0))
+
+        # 3) 조금 아래로 몇 번 나눠서 내리기
+        steps_down = random.randint(1, 3)
+        for _ in range(steps_down):
+            delta = int(total_height * random.uniform(0.05, 0.12))
+            mid_y = min(total_height, mid_y + delta)
+            driver.execute_script(f"window.scrollTo(0, {mid_y});")
+            human_sleep(random.uniform(0.5, 1.4))
+
+        # 4) 살짝 위로 올리기
+        if random.random() < 0.7:
+            up_delta = int(total_height * random.uniform(0.03, 0.08))
+            mid_y = max(0, mid_y - up_delta)
+            driver.execute_script(f"window.scrollTo(0, {mid_y});")
+            human_sleep(random.uniform(0.5, 1.3))
+
+        # 5) 마지막 미세 스크롤 (약간씩 위아래로)
+        for _ in range(random.randint(1, 3)):
+            jitter = random.randint(-120, 120)
+            mid_y = min(max(0, mid_y + jitter), total_height)
+            driver.execute_script(f"window.scrollTo(0, {mid_y});")
+            human_sleep(random.uniform(0.3, 0.9))
+
+    except Exception as e:
+        print("scroll error:", e)
+
 
 scrape_count = 0
 for i in range(100):
@@ -235,7 +283,7 @@ for i in range(100):
             time.sleep(random_float(3.0, 10.0))
             drv.get(f"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=&start={pn}")
             time.sleep(random_float(5.0, 12.0))
-            random_step_scroll(drv)
+            human_like_scroll(drv)
             
             html = drv.page_source
             soup = BeautifulSoup(html, "html.parser")
