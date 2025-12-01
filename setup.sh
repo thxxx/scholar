@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get install -y ffmpeg
+sudo apt-get install -y ffmpeg, vim
 sudo apt-get install -y python3-pip unzip wget
 sudo apt-get install -y xvfb google-chrome-stable
 
