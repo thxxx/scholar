@@ -17,6 +17,44 @@ HEADERS = {
     "Accept-Language": "ko,en;q=0.9",
 }
 
+def maybe_click_random_paper(driver, prob: float = 0.1):
+    """
+    prob 확률로 검색 결과 중 한 개 논문 상세 페이지에 들어갔다가,
+    몇 초 있다가 back() 하는 사람스러운 행동.
+    """
+    if random.random() >= prob:
+        return
+
+    try:
+        # 검색 결과 제목 링크 <h3.gs_rt a>
+        links = driver.find_elements("css selector", "div.gs_r.gs_or.gs_scl h3.gs_rt a")
+        if not links:
+            return
+
+        # 상위 몇 개 중 하나 랜덤 선택 (너무 밑은 잘 안 누른다고 가정)
+        idx = random.randint(0, min(len(links) - 1, 7))
+        target = links[idx]
+
+        # 화면 중앙쯤으로 스크롤
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", target)
+        time.sleep(random.uniform(0.8, 2.0))
+
+        # 클릭
+        target.click()
+
+        # 읽는 척 대기
+        dwell = random.uniform(3.0, 10.0)
+        print(f"👀 Reading paper for {dwell:.1f} seconds")
+        time.sleep(dwell)
+
+        # 뒤로가기 (검색 결과로 복귀)
+        driver.back()
+        time.sleep(random.uniform(2.0, 5.0))
+
+    except Exception as e:
+        print("maybe_click_random_paper error:", e)
+
+
 
 # ---------- Selenium ----------
 def build_driver(user_agent=None):
@@ -284,6 +322,8 @@ for i in range(100):
             drv.get(f"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=&start={pn}")
             time.sleep(random_float(5.0, 12.0))
             human_like_scroll(drv)
+
+            maybe_click_random_paper(drv, prob=0.08)
             
             html = drv.page_source
             soup = BeautifulSoup(html, "html.parser")
@@ -323,3 +363,4 @@ for i in range(100):
             scrape_count = 0
             stop_count = random.randint(27, 32)
         time.sleep(random_float(15.0, 24.0))
+
