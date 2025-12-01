@@ -19,7 +19,7 @@ HEADERS = {
 
 
 # ---------- Selenium ----------
-def build_driver(headless=True, user_agent=None):
+def build_driver(user_agent=None):
     opts = Options()
     
     opts.add_argument('--headless=new')
@@ -150,6 +150,7 @@ datas = pds
 
 def get_titles_and_author_ids(bsoup):
     papers = bsoup.find_all("div", class_=re.compile("gs_scl"))
+    new_list = []
     for paper in papers:
         try:
             title = paper.find("h3", class_=re.compile("gs_rt")).text
@@ -178,7 +179,7 @@ def get_titles_and_author_ids(bsoup):
     
             for ai in range(len(author_ids)):
                 author_list[author_ids[ai]].append(title)
-                datas.append({
+                new_list.append({
                     "title": title,
                     "author_id": author_ids[ai],
                     "author_names": author_names[ai],
@@ -187,8 +188,8 @@ def get_titles_and_author_ids(bsoup):
                 })
         except Exception as e:
             print("In paper error ", e)
-            return False
-    return True
+            return []
+    return new_list
 
 def random_step_scroll(driver):
     """
@@ -217,7 +218,6 @@ def random_step_scroll(driver):
     time.sleep(random.uniform(0.4, 1.0))
 
 
-count = len(datas)
 scrape_count = 0
 for i in range(100):
     rdns = sample_hap()
@@ -225,13 +225,15 @@ for i in range(100):
     n = rdns[1]
 
     indexes = random.sample([b for b in range(50)], k=5)
+    stop_count = random.randint(27, 32)
     for idx in indexes:
+        start_time = time.time()
         scrape_count += 1
         searched_combs.append(f"{k}_{n}_{idx}")
         pn = idx*10
         try:
             time.sleep(random_float(3.0, 10.0))
-            drv.get(f"https://scholar.google.com/scholar?start={pn}?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=")
+            drv.get(f"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=&start={pn}")
             time.sleep(random_float(5.0, 12.0))
             random_step_scroll(drv)
             
@@ -249,27 +251,27 @@ for i in range(100):
             time.sleep(180.0)
             continue
         
-        is_ok = get_titles_and_author_ids(soup)
-        if count == len(datas):
+        new_data = get_titles_and_author_ids(soup)
+        if len(new_data) == 0:
             print("No new data found", k, n)
-        print(f"{scrape_count}th - Data lens : ", len(datas))
+            rebuild_driver()
+            time.sleep(10800.0)
+            continue
+        # count how many unique author_ids are in the new data
+        unique_author_ids = len(set([data["author_id"] for data in new_data]))
+        print(f"Unique author ids : ", unique_author_ids)
+
+        datas.extend(new_data)
+        print(f"{scrape_count}th - Data lens : {len(datas)}, \nTime taken : {time.time() - start_time} seconds\n\n")
         df = pd.DataFrame(datas)
         df.to_csv("output.csv", index=False)
         sdf = pd.DataFrame(searched_combs)
         sdf.to_csv("searched_combs.csv", index=False)
-        if not is_ok:
-            print("괜찮지 않음")
-            rebuild_driver()
-            time.sleep(10800.0)
         
         # 40번 크롤링 하고나면 5분간 쉬기
-        if scrape_count % 30 == 29:
+        if scrape_count == stop_count:
             rebuild_driver()
-            try:
-                drv.quit()
-            except:
-                pass
             time.sleep(random_float(300.0, 420.0))
-            drv = build_driver()
+            scrape_count = 0
+            stop_count = random.randint(27, 32)
         time.sleep(random_float(15.0, 24.0))
-        count = len(datas)
