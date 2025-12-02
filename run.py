@@ -199,6 +199,7 @@ datas = pds
 def get_titles_and_author_ids(bsoup):
     papers = bsoup.find_all("div", class_=re.compile("gs_scl"))
     new_list = []
+    print("papers len : ", len(papers))
     for paper in papers:
         try:
             title = paper.find("h3", class_=re.compile("gs_rt")).text
@@ -331,7 +332,7 @@ for i in range(100):
             time.sleep(random_float(3.0, 10.0))
             drv.get(f"https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&as_ylo=2020&q={k}+{n}&btnG=&start={pn}")
             time.sleep(random_float(5.0, 12.0))
-            human_like_scroll(drv)
+            # human_like_scroll(drv)
 
             maybe_click_random_paper(drv, prob=0.08)
             
