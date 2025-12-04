@@ -2046,3 +2046,260 @@ papers len :  10
 No new data found speech kim
 🔄 Rebuilding driver...
 The chromedriver version (142.0.7444.175) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (143.0.7499.40); currently, chromedriver 143.0.7499.40 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+The chromedriver version (142.0.7444.175) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (143.0.7499.40); currently, chromedriver 143.0.7499.40 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+papers len :  10
+Unique author ids :  22
+1th - Data lens : 24990, 
+Time taken : 22.37327766418457 seconds
+
+
+papers len :  10
+Unique author ids :  32
+2th - Data lens : 25022, 
+Time taken : 25.781734466552734 seconds
+
+
+👀 Reading paper for 8.4 seconds
+papers len :  10
+Unique author ids :  25
+3th - Data lens : 25047, 
+Time taken : 40.51680302619934 seconds
+
+
+scroll error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.40)
+Stacktrace:
+#0 0x56ea78b214ca <unknown>
+#1 0x56ea7856fe4b <unknown>
+#2 0x56ea7855683e <unknown>
+#3 0x56ea7857eb2a <unknown>
+#4 0x56ea785f0e1f <unknown>
+#5 0x56ea7860e802 <unknown>
+#6 0x56ea785b4c2a <unknown>
+#7 0x56ea785b5931 <unknown>
+#8 0x56ea78ae7cf9 <unknown>
+#9 0x56ea78aeacdc <unknown>
+#10 0x56ea78ad0f79 <unknown>
+#11 0x56ea78aeb8b5 <unknown>
+#12 0x56ea78ab89c3 <unknown>
+#13 0x56ea78b0e228 <unknown>
+#14 0x56ea78b0e403 <unknown>
+#15 0x56ea78b20463 <unknown>
+#16 0x71b813726609 start_thread
+
+error  Message: invalid session id
+Stacktrace:
+#0 0x56ea78b214ca <unknown>
+#1 0x56ea7856fc78 <unknown>
+#2 0x56ea785b3d92 <unknown>
+#3 0x56ea785e8656 <unknown>
+#4 0x56ea785e2c90 <unknown>
+#5 0x56ea785e1fe2 <unknown>
+#6 0x56ea78536f85 <unknown>
+#7 0x56ea78ae7cf9 <unknown>
+#8 0x56ea78aeacdc <unknown>
+#9 0x56ea78ad0f79 <unknown>
+#10 0x56ea78aeb8b5 <unknown>
+#11 0x56ea78ab89c3 <unknown>
+#12 0x56ea785347f2 <unknown>
+#13 0x71b813070083 __libc_start_main
+
+🔄 Rebuilding driver...
+The chromedriver version (142.0.7444.175) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (143.0.7499.40); currently, chromedriver 143.0.7499.40 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+papers len :  10
+Unique author ids :  21
+5th - Data lens : 25068, 
+Time taken : 24.253365755081177 seconds
+
+
+papers len :  10
+Unique author ids :  27
+6th - Data lens : 25096, 
+Time taken : 22.603623390197754 seconds
+
+
+papers len :  10
+Unique author ids :  24
+7th - Data lens : 25120, 
+Time taken : 22.755091667175293 seconds
+
+
+papers len :  10
+Unique author ids :  24
+8th - Data lens : 25145, 
+Time taken : 25.56672739982605 seconds
+
+
+papers len :  10
+Unique author ids :  30
+9th - Data lens : 25175, 
+Time taken : 15.977213621139526 seconds
+
+
+papers len :  10
+Unique author ids :  25
+10th - Data lens : 25200, 
+Time taken : 23.58647632598877 seconds
+
+
+papers len :  10
+Unique author ids :  29
+11th - Data lens : 25229, 
+Time taken : 19.4210147857666 seconds
+
+
+👀 Reading paper for 6.2 seconds
+papers len :  10
+Unique author ids :  29
+12th - Data lens : 25258, 
+Time taken : 38.143691301345825 seconds
+
+
+👀 Reading paper for 6.9 seconds
+papers len :  10
+Unique author ids :  27
+13th - Data lens : 25285, 
+Time taken : 43.01231551170349 seconds
+
+
+papers len :  10
+Unique author ids :  36
+14th - Data lens : 25321, 
+Time taken : 25.550862789154053 seconds
+
+
+papers len :  10
+Unique author ids :  24
+15th - Data lens : 25346, 
+Time taken : 24.282113552093506 seconds
+
+
+👀 Reading paper for 5.6 seconds
+papers len :  10
+Unique author ids :  24
+16th - Data lens : 25370, 
+Time taken : 29.662150859832764 seconds
+
+
+papers len :  10
+Unique author ids :  24
+17th - Data lens : 25396, 
+Time taken : 23.082053422927856 seconds
+
+
+papers len :  10
+Unique author ids :  27
+18th - Data lens : 25423, 
+Time taken : 27.50987219810486 seconds
+
+
+papers len :  10
+Unique author ids :  25
+19th - Data lens : 25448, 
+Time taken : 27.14038395881653 seconds
+
+
+papers len :  10
+Unique author ids :  25
+20th - Data lens : 25473, 
+Time taken : 18.50448179244995 seconds
+
+
+papers len :  10
+Unique author ids :  32
+21th - Data lens : 25505, 
+Time taken : 21.465298652648926 seconds
+
+
+papers len :  10
+Unique author ids :  22
+22th - Data lens : 25528, 
+Time taken : 29.13033437728882 seconds
+
+
+papers len :  10
+Unique author ids :  21
+23th - Data lens : 25549, 
+Time taken : 20.866746187210083 seconds
+
+
+papers len :  10
+Unique author ids :  25
+24th - Data lens : 25574, 
+Time taken : 20.958564281463623 seconds
+
+
+papers len :  10
+Unique author ids :  24
+25th - Data lens : 25598, 
+Time taken : 25.511143684387207 seconds
+
+
+👀 Reading paper for 5.6 seconds
+papers len :  10
+Unique author ids :  28
+26th - Data lens : 25627, 
+Time taken : 35.85811471939087 seconds
+
+
+papers len :  10
+Unique author ids :  37
+27th - Data lens : 25665, 
+Time taken : 28.355743408203125 seconds
+
+
+papers len :  10
+Unique author ids :  31
+28th - Data lens : 25696, 
+Time taken : 28.948427438735962 seconds
+
+
+papers len :  10
+Unique author ids :  32
+29th - Data lens : 25728, 
+Time taken : 26.40175747871399 seconds
+
+
+papers len :  10
+Unique author ids :  26
+30th - Data lens : 25754, 
+Time taken : 27.366051197052002 seconds
+
+
+papers len :  10
+Unique author ids :  23
+31th - Data lens : 25777, 
+Time taken : 22.93704056739807 seconds
+
+
+papers len :  10
+Unique author ids :  29
+32th - Data lens : 25806, 
+Time taken : 19.434291124343872 seconds
+
+
+papers len :  10
+Unique author ids :  21
+33th - Data lens : 25827, 
+Time taken : 24.294841527938843 seconds
+
+
+papers len :  10
+Unique author ids :  32
+34th - Data lens : 25859, 
+Time taken : 17.990026712417603 seconds
+
+
+papers len :  10
+Unique author ids :  30
+35th - Data lens : 25889, 
+Time taken : 20.20456552505493 seconds
+
+
+solving the above CAPTCHA
+🔄 Rebuilding driver...
+The chromedriver version (142.0.7444.175) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (143.0.7499.40); currently, chromedriver 143.0.7499.40 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
+solving the above CAPTCHA
+🔄 Rebuilding driver...
+The chromedriver version (142.0.7444.175) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (143.0.7499.40); currently, chromedriver 143.0.7499.40 is recommended for chrome 143.*, so it is advised to delete the driver in PATH and retry
