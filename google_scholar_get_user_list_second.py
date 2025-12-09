@@ -8,16 +8,22 @@ url = "https://api.scrapingdog.com/google"
 unis = {
     'korea.ac.kr': 1, 'yonsei': 1, 'snu': 2, 'kaist': 2, 'postech': 1
 }
-keywords = ["deep", "machine", "artificial intelligence", "computer"] # 각 2000명씩
+keywords = ["deep", "machine", "artificial intelligence", "computer"] # 각 3000명씩
 
 datas = []
-for uni in unis:
-    for keyword in keywords:
-        for idx in tqdm(range(1, int(200 * unis[uni]))):
+
+schools = ["MIT", "Stanford", "UC Berkeley", "CMU"]
+surnames = {
+    "kim":3.5, "park":2, "lee":2, "choi":1.5, "jung":1, "cho":1, "hwang":1
+}
+
+for school in schools:
+    for surname in surnames:
+        for idx in tqdm(range(1, int(50 * surnames[surname]))):
             params = {
                 "api_key": api_key,
-                "query": f"{uni} {keyword} site:https://scholar.google.com/citations",
-                "country": "kr",
+                "query": f"{school} {surname} site:https://scholar.google.com/citations",
+                "country": "us",
                 "page": f"{idx}",
                 "advance_search": "true",
                 "domain": "google.com"
@@ -55,5 +61,4 @@ for uni in unis:
                 print(f"Error: {e}")
                 continue
 
-        pd.DataFrame(datas).to_csv('scholar_search_results.csv', index=False)
-
+        pd.DataFrame(datas).to_csv('scholar_search_results_second.csv', index=False)
