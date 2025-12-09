@@ -1,0 +1,2910 @@
+[
+    {
+        "name": "soohyun-park-162375254",
+        "urn": "ACoAAD6zvZoBe71nrIYBrJBViw3tyn4E9CqXWTM",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 1051966874,
+                "urn": "ACoAAD6zvZoBe71nrIYBrJBViw3tyn4E9CqXWTM",
+                "username": "soohyun-park-162375254",
+                "firstName": "Soohyun",
+                "lastName": "Park",
+                "isCreator": false,
+                "isPremium": false,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/D4E03AQEi6bicjCkNhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682740534982?e=1766620800&v=beta&t=HDGLs2bfM7IkU6pw_wjZMsW5ZTJEqJE1_HNOSq2IkaE",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D4E03AQEi6bicjCkNhw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1682740534982?e=1766620800&v=beta&t=JN7XHoIwLpsFMyPBfDtfQbumSwpOR2H9_iJ6gEsbnu0",
+                        "width": 100,
+                        "height": 100
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D4E03AQEi6bicjCkNhw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1682740534982?e=1766620800&v=beta&t=_9maFHR68eBK_WAL8Zug-xocp5hnf7Ll4TPeRLJFMTY",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D4E03AQEi6bicjCkNhw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1682740534982?e=1766620800&v=beta&t=B-BViVq0HUkpALEifYkmVdX7f-te92wdj1MEdCNbc78",
+                        "width": 400,
+                        "height": 400
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D4E03AQEi6bicjCkNhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682740534982?e=1766620800&v=beta&t=HDGLs2bfM7IkU6pw_wjZMsW5ZTJEqJE1_HNOSq2IkaE",
+                        "width": 800,
+                        "height": 800
+                    }
+                ],
+                "backgroundImage": [],
+                "summary": "Data Analysis (Python, R)\nData Reporting (SQL, Tableau, Power BI)",
+                "headline": "Data Analyst",
+                "geo": {
+                    "country": "South Korea",
+                    "city": "Seoul",
+                    "full": "Seoul, South Korea",
+                    "countryCode": "kr"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 2018,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 8,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "Bachelor's degree",
+                        "grade": "",
+                        "schoolName": "\uc219\uba85\uc5ec\uc790\ub300\ud559\uad50",
+                        "description": "",
+                        "activities": "Samsung SDS Brightics \ub370\uc774\ud130\ubd84\uc11d \uc11c\ud3ec\ud130\uc988\nLG Display Stretchable \uad6d\ucc45\uc5f0\uad6c \ud559\uc0dd \uc5f0\uad6c\uc6d0\nIT\uacbd\uc601\ud559\ud68c KUSITMS\n\uc804\uacbd\ub828 \uacbd\uc81c\uacbd\uc601\ub3d9\uc544\ub9ac EIC",
+                        "url": "https://www.linkedin.com/school/%EC%88%99%EB%AA%85%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90/",
+                        "schoolId": "15096108",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQEJpB3uoobGqA/company-logo_200_200/company-logo_200_200/0/1631359581715?e=1766620800&v=beta&t=DAtOXjQ-U02GsV3GwEAa6bdhoeS3oHVywkU0WtcTFnM",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQEJpB3uoobGqA/company-logo_100_100/company-logo_100_100/0/1631359581715?e=1766620800&v=beta&t=HscCROHeXaitZs6yUBjLEeuWtwy01H7Erd_lypxdm1s",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQEJpB3uoobGqA/company-logo_400_400/company-logo_400_400/0/1631359581715?e=1766620800&v=beta&t=Le90fmDj6EnQxwH8omF_IhWX6XFmWxj0juqsgN7LXf0",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 10571084,
+                        "companyName": "Viva Republica (Toss)",
+                        "companyUsername": "tossglobal",
+                        "companyURL": "https://www.linkedin.com/company/tossglobal/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHrABnQK3_bBw/company-logo_400_400/company-logo_400_400/0/1662339004690/viva_republica_logo?e=1766620800&v=beta&t=sh5wRCar8FdSfYZX5vtpOgeY7LQfqvcJfgi5oP5laUY",
+                        "companyIndustry": "Financial Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "DataOps",
+                        "multiLocaleTitle": {
+                            "ko_KR": "DataOps"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Viva Republica (Toss)"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2824374,
+                        "companyName": "Coupang",
+                        "companyUsername": "coupang",
+                        "companyURL": "https://www.linkedin.com/company/coupang/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQHlqY2ryf_2RA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630654618005/coupang_logo?e=1766620800&v=beta&t=GjehVANeksx9CPtTAX4MbZoOqAF3dGdnJcTi0wRqYic",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "10001 - 0",
+                        "title": "Data Process Innovation",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Data Process Innovation"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Coupang"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 18341231,
+                        "companyName": "\uce74\uce74\uc624\ud398\uc774 (kakaopay)",
+                        "companyUsername": "kakaopay",
+                        "companyURL": "https://www.linkedin.com/company/kakaopay/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQGYbPSvbg6zBQ/company-logo_400_400/company-logo_400_400/0/1631338933003?e=1766620800&v=beta&t=D3WmEjsALgPrd5i9WwesSrOuXfcFEThLTV-YEXg5i0Q",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Business Data Analyst",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Business Data Analyst"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\uce74\uce74\uc624\ud398\uc774 (kakaopay)"
+                        },
+                        "location": "\uc131\ub0a8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2024,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 11,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 144240,
+                        "companyName": "Kiss Products, Inc.",
+                        "companyUsername": "kiss-products",
+                        "companyURL": "https://www.linkedin.com/company/kiss-products/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFzrgCXrGQiVA/company-logo_400_400/company-logo_400_400/0/1631326260389?e=1766620800&v=beta&t=rZPUbdS58dOUGzra105xI-ZO7sd1ktj52pq11lz3uFg",
+                        "companyIndustry": "Cosmetics",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Data Analyst",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Data Analyst"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kiss Products, Inc."
+                        },
+                        "location": "\ubbf8\uad6d \ub274\uc695",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2023,
+                            "month": 2,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 8,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Real Estate Assistant",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Real Estate Assistant"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kakao Corp"
+                        },
+                        "location": "\ub300\ud55c\ubbfc\uad6d \uacbd\uae30\ub3c4 \uc131\ub0a8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2022,
+                            "month": 6,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 1,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 10571084,
+                        "companyName": "Viva Republica (Toss)",
+                        "companyUsername": "tossglobal",
+                        "companyURL": "https://www.linkedin.com/company/tossglobal/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHrABnQK3_bBw/company-logo_400_400/company-logo_400_400/0/1662339004690/viva_republica_logo?e=1766620800&v=beta&t=sh5wRCar8FdSfYZX5vtpOgeY7LQfqvcJfgi5oP5laUY",
+                        "companyIndustry": "Financial Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "DataOps",
+                        "multiLocaleTitle": {
+                            "ko_KR": "DataOps"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Viva Republica (Toss)"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2824374,
+                        "companyName": "Coupang",
+                        "companyUsername": "coupang",
+                        "companyURL": "https://www.linkedin.com/company/coupang/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQHlqY2ryf_2RA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630654618005/coupang_logo?e=1766620800&v=beta&t=GjehVANeksx9CPtTAX4MbZoOqAF3dGdnJcTi0wRqYic",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "10001 - 0",
+                        "title": "Data Process Innovation",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Data Process Innovation"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Coupang"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 18341231,
+                        "companyName": "\uce74\uce74\uc624\ud398\uc774 (kakaopay)",
+                        "companyUsername": "kakaopay",
+                        "companyURL": "https://www.linkedin.com/company/kakaopay/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQGYbPSvbg6zBQ/company-logo_400_400/company-logo_400_400/0/1631338933003?e=1766620800&v=beta&t=D3WmEjsALgPrd5i9WwesSrOuXfcFEThLTV-YEXg5i0Q",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Business Data Analyst",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Business Data Analyst"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\uce74\uce74\uc624\ud398\uc774 (kakaopay)"
+                        },
+                        "location": "\uc131\ub0a8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2024,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 11,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 144240,
+                        "companyName": "Kiss Products, Inc.",
+                        "companyUsername": "kiss-products",
+                        "companyURL": "https://www.linkedin.com/company/kiss-products/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFzrgCXrGQiVA/company-logo_400_400/company-logo_400_400/0/1631326260389?e=1766620800&v=beta&t=rZPUbdS58dOUGzra105xI-ZO7sd1ktj52pq11lz3uFg",
+                        "companyIndustry": "Cosmetics",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Data Analyst",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Data Analyst"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kiss Products, Inc."
+                        },
+                        "location": "\ubbf8\uad6d \ub274\uc695",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2023,
+                            "month": 2,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 8,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Real Estate Assistant",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Real Estate Assistant"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kakao Corp"
+                        },
+                        "location": "\ub300\ud55c\ubbfc\uad6d \uacbd\uae30\ub3c4 \uc131\ub0a8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Internship",
+                        "start": {
+                            "year": 2022,
+                            "month": 6,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 1,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Tableau",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Power BI",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "SQL",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Python",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "\ub370\uc774\ud130\ubd84\uc11d",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "ko_KR": "Soohyun"
+                },
+                "multiLocaleLastName": {
+                    "ko_KR": "Park"
+                },
+                "multiLocaleHeadline": {
+                    "ko_KR": "Data Analyst"
+                }
+            }
+        }
+    },
+    {
+        "name": "bobbymin",
+        "urn": "ACoAAB8gIUwBwCJ9XnENnQV-Tm3-Icw4fSL8qkw",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 522199372,
+                "urn": "ACoAAB8gIUwBwCJ9XnENnQV-Tm3-Icw4fSL8qkw",
+                "username": "bobbymin",
+                "firstName": "Bobby",
+                "lastName": "Min",
+                "isCreator": false,
+                "isPremium": true,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/C5603AQFAKXgLuuo1Fg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622787879506?e=1766620800&v=beta&t=9GxwVCityX3OUSUwfe_UChSCrucUjK1ES6nmQbjJxT8",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQFAKXgLuuo1Fg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622787879506?e=1766620800&v=beta&t=usROW0XJw34RpozGyX8j-Xpswrgn9mwHhD6SHBGH0pM",
+                        "width": 100,
+                        "height": 100
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQFAKXgLuuo1Fg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622787879506?e=1766620800&v=beta&t=hHE-gmBJs5Hjy86VxgvxGvlGJeSIU-8TVyFx2obWEQM",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQFAKXgLuuo1Fg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622787879506?e=1766620800&v=beta&t=JqnOtKNMU3aeXHTbDl6HwJqjFOFCxNCxwzkKncWTjBk",
+                        "width": 400,
+                        "height": 400
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQFAKXgLuuo1Fg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622787879506?e=1766620800&v=beta&t=9GxwVCityX3OUSUwfe_UChSCrucUjK1ES6nmQbjJxT8",
+                        "width": 800,
+                        "height": 800
+                    }
+                ],
+                "backgroundImage": [
+                    {
+                        "width": 800,
+                        "height": 200,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQHT3tWBtCiJxQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1703081454547?e=1766620800&v=beta&t=2cWlIN1TuMblcIYA304rZFvZMmq_s7YCQS2QI1SkIog"
+                    },
+                    {
+                        "width": 1400,
+                        "height": 350,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQHT3tWBtCiJxQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1703081454547?e=1766620800&v=beta&t=sHthPdCQBIOoNeD0X7LxQXvzPfMdDHgA3Mogah7J_z4"
+                    }
+                ],
+                "summary": "",
+                "headline": "Early-stage investing at Krew Capital | Harvard",
+                "geo": {
+                    "country": "United States",
+                    "city": "San Francisco Bay Area",
+                    "full": "San Francisco Bay Area",
+                    "countryCode": "us"
+                },
+                "languages": [
+                    {
+                        "name": "English",
+                        "proficiency": "NATIVE_OR_BILINGUAL"
+                    },
+                    {
+                        "name": "Korean",
+                        "proficiency": "NATIVE_OR_BILINGUAL"
+                    }
+                ],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "MBA Candidate",
+                        "grade": "",
+                        "schoolName": "Harvard Business School",
+                        "description": "left after the first year to start Krew Capital",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/harvard-business-school/",
+                        "schoolId": "4867",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF_DkXTlZVo1w/company-logo_200_200/company-logo_200_200/0/1639781479259/harvard_business_school_logo?e=1766620800&v=beta&t=9RV9jwrHlaZStwNGzvH0qqaMFssdgotZRs_huEF7-hs",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF_DkXTlZVo1w/company-logo_100_100/company-logo_100_100/0/1639781479259/harvard_business_school_logo?e=1766620800&v=beta&t=A6aJP_SgaeUuKbJm90yDv1rVa-S5hzTM9Q5TnxJb5aA",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF_DkXTlZVo1w/company-logo_400_400/company-logo_400_400/0/1639781479259/harvard_business_school_logo?e=1766620800&v=beta&t=M99KvthTzYV3ZTfCzp4yLVXyX4eaLaLz1enF-fTOcJc",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "Statistics",
+                        "degree": "Bachelor of Arts (B.A.)",
+                        "grade": "",
+                        "schoolName": "Harvard University",
+                        "description": "Internships:\n- Corporate Management Intern @The Kraft Heinz Company (Chicago, IL - 2017)\n- Summer Intern, U.S. Fixed Income @CQS Management (New York, NY - 2016)\n\nActivities and societies:\nAsian American Brotherhood, MIR Investment Group, CS50 Course Assistant (Intro to Computer Science), Korean American Association, Foreign Language Citation (Mandarin, Chinese - Harvard Beijing Academy, Summer Abroad)",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/harvard-university/",
+                        "schoolId": "1646",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1766620800&v=beta&t=fmC09KFqZby4tCiBkAOrFMpEDciAfFN5anIfLVfLiCc",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1766620800&v=beta&t=A-NXdKHPZcZ-hAc-VEDKCgMGMLKrldKoFi0CPROfdRw",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1766620800&v=beta&t=4c90bsEICNMHY-LSXLzn90fzKO2m99StB8Gtrp566Zs",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "High School",
+                        "grade": "Magna Cum Laude",
+                        "schoolName": "Groton School",
+                        "description": "",
+                        "activities": "The John Jay Pierrepoint Prize, Yearbook (Editor in Chief), Math Team (competed in ARML & AMC), Dory's Cafe (Head of student-run cafe), National Merit Scholar",
+                        "url": "https://www.linkedin.com/school/groton-school/",
+                        "schoolId": "51909",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHubz404CnrjA/company-logo_200_200/company-logo_200_200/0/1631359256068?e=1766620800&v=beta&t=gCeXcAgkGW9RC0S6Dgv9YqRJiU4bi9NjatfaOjnzVYw",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHubz404CnrjA/company-logo_100_100/company-logo_100_100/0/1631359256069?e=1766620800&v=beta&t=73oSGpnXv-etBrMsrit4adLuubcnI_6Xsm8Q4HrDBcs",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHubz404CnrjA/company-logo_400_400/company-logo_400_400/0/1631359256069?e=1766620800&v=beta&t=0pdrmjJJxosXUuaKuevxoMdBj9Llm2OKN3XZvitFg6I",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 96160228,
+                        "companyName": "Krew Capital",
+                        "companyUsername": "krew-capital",
+                        "companyURL": "https://www.linkedin.com/company/krew-capital/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEiIpj3XFn27Q/company-logo_400_400/company-logo_400_400/0/1695033333792/krew_capital_logo?e=1766620800&v=beta&t=XWbwFuO_VZpHOevo7lIZMWnV1IjSui4PXucqMGWgWro",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Co-Founder and General Partner",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder and General Partner"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Krew Capital"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2023,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 15096106,
+                        "companyName": "Seoul National University",
+                        "companyUsername": "seoulnational-university",
+                        "companyURL": "https://www.linkedin.com/school/seoulnational-university/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1766620800&v=beta&t=X3ze2EIlFNrT6BVeUokANWTqIxmVX_SAkO-8heVZJaQ",
+                        "companyIndustry": "Higher Education",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Lecturer",
+                        "multiLocaleTitle": {
+                            "en_US": "Lecturer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Seoul National University"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "Intro to Venture Capital (Full Credit Course, SNU Entrepreneurship Center)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2024,
+                            "month": 9,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Brian Office",
+                        "multiLocaleTitle": {
+                            "en_US": "Brian Office",
+                            "ko_KR": "\ube0c\ub77c\uc774\uc5b8\uc624\ud53c\uc2a4"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kakao Corp",
+                            "ko_KR": "\uce74\uce74\uc624"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "Chief of Staff to Brian Kim, the founder and chairman of Kakao Corp. (Future Initiative Center f.k.a. Chairman\u2019s Office)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 11,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Team Leader, Kakao Investment",
+                        "multiLocaleTitle": {
+                            "en_US": "Team Leader, Kakao Investment",
+                            "ko_KR": "\ud300\uc7a5, \ud22c\uc790\uadf8\ub8f9"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kakao Corp",
+                            "ko_KR": "\uce74\uce74\uc624\uc778\ubca0\uc2a4\ud2b8\uba3c\ud2b8"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Kakao Investment is a corporate venture capital (CVC) firm investing in early- to growth-stage companies and in emerging GPs (website: https://en.kakaoinvestment.com/)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 5210,
+                        "companyName": "L.E.K. Consulting",
+                        "companyUsername": "lekconsulting",
+                        "companyURL": "https://www.linkedin.com/company/lekconsulting/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQHnydpy5eVTmQ/company-logo_400_400/company-logo_400_400/0/1688150582735/lekconsulting_logo?e=1766620800&v=beta&t=OavByBoD3MHspwNamZarRoHV0hiiBbXiOa1qH6dj8J8",
+                        "companyIndustry": "Management Consulting",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Associate",
+                        "multiLocaleTitle": {
+                            "en_US": "Associate",
+                            "ko_KR": "\ucee8\uc124\ud134\ud2b8"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "L.E.K. Consulting",
+                            "ko_KR": "L.E.K. \ucee8\uc124\ud305"
+                        },
+                        "location": "Los Angeles, California",
+                        "locationType": "",
+                        "description": "Corporate due diligence and growth strategy consulting in Technology, Media & Entertainment, Healthcare/BioTech, and Consumer Goods industries",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2018,
+                            "month": 10,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2020,
+                            "month": 10,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 96160228,
+                        "companyName": "Krew Capital",
+                        "companyUsername": "krew-capital",
+                        "companyURL": "https://www.linkedin.com/company/krew-capital/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEiIpj3XFn27Q/company-logo_400_400/company-logo_400_400/0/1695033333792/krew_capital_logo?e=1766620800&v=beta&t=XWbwFuO_VZpHOevo7lIZMWnV1IjSui4PXucqMGWgWro",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Co-Founder and General Partner",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder and General Partner"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Krew Capital"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2023,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 15096106,
+                        "companyName": "Seoul National University",
+                        "companyUsername": "seoulnational-university",
+                        "companyURL": "https://www.linkedin.com/school/seoulnational-university/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1766620800&v=beta&t=X3ze2EIlFNrT6BVeUokANWTqIxmVX_SAkO-8heVZJaQ",
+                        "companyIndustry": "Higher Education",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Lecturer",
+                        "multiLocaleTitle": {
+                            "en_US": "Lecturer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Seoul National University"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "Intro to Venture Capital (Full Credit Course, SNU Entrepreneurship Center)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2024,
+                            "month": 9,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Brian Office",
+                        "multiLocaleTitle": {
+                            "en_US": "Brian Office",
+                            "ko_KR": "\ube0c\ub77c\uc774\uc5b8\uc624\ud53c\uc2a4"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kakao Corp",
+                            "ko_KR": "\uce74\uce74\uc624"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "Chief of Staff to Brian Kim, the founder and chairman of Kakao Corp. (Future Initiative Center f.k.a. Chairman\u2019s Office)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 11,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Team Leader, Kakao Investment",
+                        "multiLocaleTitle": {
+                            "en_US": "Team Leader, Kakao Investment",
+                            "ko_KR": "\ud300\uc7a5, \ud22c\uc790\uadf8\ub8f9"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kakao Corp",
+                            "ko_KR": "\uce74\uce74\uc624\uc778\ubca0\uc2a4\ud2b8\uba3c\ud2b8"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Kakao Investment is a corporate venture capital (CVC) firm investing in early- to growth-stage companies and in emerging GPs (website: https://en.kakaoinvestment.com/)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 5210,
+                        "companyName": "L.E.K. Consulting",
+                        "companyUsername": "lekconsulting",
+                        "companyURL": "https://www.linkedin.com/company/lekconsulting/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQHnydpy5eVTmQ/company-logo_400_400/company-logo_400_400/0/1688150582735/lekconsulting_logo?e=1766620800&v=beta&t=OavByBoD3MHspwNamZarRoHV0hiiBbXiOa1qH6dj8J8",
+                        "companyIndustry": "Management Consulting",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Associate",
+                        "multiLocaleTitle": {
+                            "en_US": "Associate",
+                            "ko_KR": "\ucee8\uc124\ud134\ud2b8"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "L.E.K. Consulting",
+                            "ko_KR": "L.E.K. \ucee8\uc124\ud305"
+                        },
+                        "location": "Los Angeles, California",
+                        "locationType": "",
+                        "description": "Corporate due diligence and growth strategy consulting in Technology, Media & Entertainment, Healthcare/BioTech, and Consumer Goods industries",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2018,
+                            "month": 10,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2020,
+                            "month": 10,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Venture Capital",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Data Analysis",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Economics",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Business Analytics",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Corporate Finance",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Financial Analysis",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Modeling",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Public Speaking",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Business Statistics",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "US",
+                        "language": "en"
+                    },
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "en_US": "Bobby",
+                    "ko_KR": "\ubcd1\ud6c8"
+                },
+                "multiLocaleLastName": {
+                    "en_US": "Min",
+                    "ko_KR": "\ubbfc"
+                },
+                "multiLocaleHeadline": {
+                    "en_US": "Early-stage investing at Krew Capital | Harvard",
+                    "ko_KR": "MBA Candidate at Harvard Business School | Kakao"
+                }
+            }
+        }
+    },
+    {
+        "name": "minjaesong",
+        "urn": "ACoAAB6NWk0BJcpjapgfgnFHBTmLzUYgCBnKGzw",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 512580173,
+                "urn": "ACoAAB6NWk0BJcpjapgfgnFHBTmLzUYgCBnKGzw",
+                "username": "minjaesong",
+                "firstName": "Minjae",
+                "lastName": "Song",
+                "isCreator": false,
+                "isPremium": true,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/C5603AQGtJqaVDEprFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660975126157?e=1766620800&v=beta&t=gQitdVe_xkh_9t9tPZE0nXcnakU4nGc6duEWsncUMDs",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQGtJqaVDEprFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660975126157?e=1766620800&v=beta&t=N8u5KtTD6FcsAV_pAPeL5uOZoVOjp3ChFRaeSTsH_k0",
+                        "width": 100,
+                        "height": 100
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQGtJqaVDEprFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660975126157?e=1766620800&v=beta&t=tql7wNK1-m7pb8EC9mc5aksmQBeqNTJ0b7-WpBX1Y_o",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQGtJqaVDEprFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660975126157?e=1766620800&v=beta&t=142wCBn0cS455XIsUodoIMXvBVHMf1jHDwNib5-p7lg",
+                        "width": 400,
+                        "height": 400
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/C5603AQGtJqaVDEprFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660975126157?e=1766620800&v=beta&t=gQitdVe_xkh_9t9tPZE0nXcnakU4nGc6duEWsncUMDs",
+                        "width": 800,
+                        "height": 800
+                    }
+                ],
+                "backgroundImage": [
+                    {
+                        "width": 800,
+                        "height": 200,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQGpgXH5rLtB1g/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1674872566088?e=1766620800&v=beta&t=-I1jdfDZVX0o4WOG81HDP1T_DPkWZK8tLRm95ZdseIs"
+                    },
+                    {
+                        "width": 1400,
+                        "height": 350,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQGpgXH5rLtB1g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1674872566088?e=1766620800&v=beta&t=k-vDBSuLKYV-X4pCaISno0GII1-XSGUOJc5V814gguw"
+                    }
+                ],
+                "summary": "",
+                "headline": "Early-stage investing @Krew Capital | Stanford MBA Candidate | Forbes 30U30",
+                "geo": {
+                    "country": "",
+                    "city": "United States",
+                    "full": "United States",
+                    "countryCode": "us"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "Master of Business Administration - MBA",
+                        "grade": "",
+                        "schoolName": "Stanford University Graduate School of Business",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/stanford-graduate-school-of-business/",
+                        "schoolId": "1791",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGyTHJCehyEuA/company-logo_200_200/company-logo_200_200/0/1630537027992/stanford_graduate_school_of_business_logo?e=1766620800&v=beta&t=aIVZy6PqG-e22chmMwbNhiCaM3MRkkw6xmikK0iQGA0",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGyTHJCehyEuA/company-logo_100_100/company-logo_100_100/0/1630537027992/stanford_graduate_school_of_business_logo?e=1766620800&v=beta&t=Zc_TkTRcubbjQACMaNNYi2VliPPctvi3EUF0lk7kcn0",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGyTHJCehyEuA/company-logo_400_400/company-logo_400_400/0/1630537027992/stanford_graduate_school_of_business_logo?e=1766620800&v=beta&t=mrffLI741Tl177XrmC58Ku6LE_ZEpSFCIok7g_1GCTM",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "Bachelor of Science - BS",
+                        "grade": "",
+                        "schoolName": "Swarthmore College",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/swarthmore-college/",
+                        "schoolId": "16443",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQGkMo8SKTa1NQ/company-logo_200_200/company-logo_200_200/0/1631310092831?e=1766620800&v=beta&t=uMEq6Jgm18fViP_oXzzbYfhhF9m1GllGQujEKncZAOg",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQGkMo8SKTa1NQ/company-logo_100_100/company-logo_100_100/0/1631310092831?e=1766620800&v=beta&t=VYKRB0m3olxDD7peyqtllXRoiKqfXjdENB08SNdQx54",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQGkMo8SKTa1NQ/company-logo_400_400/company-logo_400_400/0/1631310092831?e=1766620800&v=beta&t=QCLCZDA3WWWvjdh-orR3uofkeVfwCR6feuH_gg7mf9k",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "High School Diploma",
+                        "grade": "",
+                        "schoolName": "Hanyoung Foreign Language High School",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/hyfls/",
+                        "schoolId": "18093723",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGf3AkruEo49w/company-logo_200_200/company-logo_200_200/0/1631334033595?e=1766620800&v=beta&t=3EVxLhWiQmEXbDLURY77UVr689WgMmep2Tx8R005eOo",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGf3AkruEo49w/company-logo_100_100/company-logo_100_100/0/1631334033595?e=1766620800&v=beta&t=2jwjkcse5EpYW6NXLtwih-9nI9Fg6NflqqmtRBBMeqI",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGf3AkruEo49w/company-logo_400_400/company-logo_400_400/0/1631334033595?e=1766620800&v=beta&t=9afLVBBssAgWzJklkqGyFQxLTrYqys5GFhHEUQBMcZY",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 96160228,
+                        "companyName": "Krew Capital",
+                        "companyUsername": "krew-capital",
+                        "companyURL": "https://www.linkedin.com/company/krew-capital/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEiIpj3XFn27Q/company-logo_400_400/company-logo_400_400/0/1695033333792/krew_capital_logo?e=1766620800&v=beta&t=XWbwFuO_VZpHOevo7lIZMWnV1IjSui4PXucqMGWgWro",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Co-Founder and General Partner ",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Co-Founder and General Partner "
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Krew Capital"
+                        },
+                        "location": "United States",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2023,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Brian Office (f.k.a. Chairman's Office)",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Brian Office (f.k.a. Chairman's Office)"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kakao Corp"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Chief of Staff to Brian Kim, the founder and chairman of Kakao Corp. (Future Initiative Center f.k.a. Chairman\u2019s Office)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 1,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 13439088,
+                        "companyName": "KB Investment",
+                        "companyUsername": "kb-investment",
+                        "companyURL": "https://www.linkedin.com/company/kb-investment/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFv8lRN3bg84w/company-logo_400_400/company-logo_400_400/0/1631310404060?e=1766620800&v=beta&t=zsPS2vqigEPFm3fFmzZ-uGMbE9w5seUTTrCjwTlNo4Y",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Investment Manager",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Investment Manager"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "KB Investment"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Investor in Mathpresso (d.b.a. Qanda), Contents Technologies, DroptheBit (acquired by Goodnotes), BigwaveRobotics, N.Light, RebuilderAI, Databank, Camel, The Gifting Company, Gluga, Levit (d.b.a. Alwayz), Medistream, Aurumplanet (d.b.a. Liner), Andar, Guidelive, and DoHands (self-sourced first ten companies)\n\nKB Investment is the venture capital subsidiary of KB Financial Group, investing in seed to late-stage companies across consumer, enterprise, bio/healthcare, fintech spaces.",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 4,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 6,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 96160228,
+                        "companyName": "Krew Capital",
+                        "companyUsername": "krew-capital",
+                        "companyURL": "https://www.linkedin.com/company/krew-capital/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEiIpj3XFn27Q/company-logo_400_400/company-logo_400_400/0/1695033333792/krew_capital_logo?e=1766620800&v=beta&t=XWbwFuO_VZpHOevo7lIZMWnV1IjSui4PXucqMGWgWro",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Co-Founder and General Partner ",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Co-Founder and General Partner "
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Krew Capital"
+                        },
+                        "location": "United States",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2023,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 3996614,
+                        "companyName": "Kakao Corp",
+                        "companyUsername": "kakaocorp",
+                        "companyURL": "https://www.linkedin.com/company/kakaocorp/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQH8GHN89ZynPw/company-logo_400_400/company-logo_400_400/0/1662355918684/kakaocorp_logo?e=1766620800&v=beta&t=Gn6BCRIRg3Zfo1xHuCtYuOBI8KdsxXngQ80iNF2G21o",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Brian Office (f.k.a. Chairman's Office)",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Brian Office (f.k.a. Chairman's Office)"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Kakao Corp"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Chief of Staff to Brian Kim, the founder and chairman of Kakao Corp. (Future Initiative Center f.k.a. Chairman\u2019s Office)",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2022,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 1,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 13439088,
+                        "companyName": "KB Investment",
+                        "companyUsername": "kb-investment",
+                        "companyURL": "https://www.linkedin.com/company/kb-investment/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFv8lRN3bg84w/company-logo_400_400/company-logo_400_400/0/1631310404060?e=1766620800&v=beta&t=zsPS2vqigEPFm3fFmzZ-uGMbE9w5seUTTrCjwTlNo4Y",
+                        "companyIndustry": "Venture Capital & Private Equity",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Investment Manager",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Investment Manager"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "KB Investment"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Investor in Mathpresso (d.b.a. Qanda), Contents Technologies, DroptheBit (acquired by Goodnotes), BigwaveRobotics, N.Light, RebuilderAI, Databank, Camel, The Gifting Company, Gluga, Levit (d.b.a. Alwayz), Medistream, Aurumplanet (d.b.a. Liner), Andar, Guidelive, and DoHands (self-sourced first ten companies)\n\nKB Investment is the venture capital subsidiary of KB Financial Group, investing in seed to late-stage companies across consumer, enterprise, bio/healthcare, fintech spaces.",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 4,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2022,
+                            "month": 6,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Investment Strategies",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Start-ups",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Venture Capital",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "ko_KR": "Minjae"
+                },
+                "multiLocaleLastName": {
+                    "ko_KR": "Song"
+                },
+                "multiLocaleHeadline": {
+                    "ko_KR": "Early-stage investing @Krew Capital | Stanford MBA Candidate | Forbes 30U30"
+                }
+            }
+        }
+    },
+    {
+        "name": "ian-ryu",
+        "urn": "ACoAAC6VPmoB4C35PA4wT-wdptVwrfLcR81XPHg",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 781532778,
+                "urn": "ACoAAC6VPmoB4C35PA4wT-wdptVwrfLcR81XPHg",
+                "username": "ian-ryu",
+                "firstName": "Il Han",
+                "lastName": "Ryu",
+                "isCreator": false,
+                "isPremium": false,
+                "profilePicture": "",
+                "profilePictures": [],
+                "backgroundImage": [],
+                "summary": "",
+                "headline": "Co-Founder @ Endo Health (a16z SR003)",
+                "geo": {
+                    "country": "United States",
+                    "city": "San Francisco, California",
+                    "full": "San Francisco, California, United States",
+                    "countryCode": "us"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 2024,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "",
+                        "grade": "",
+                        "schoolName": "A16Z GAMES SPEEDRUN",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/a16zspeedrun/",
+                        "schoolId": "98410684",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQEtQ3FiaYNBLQ/company-logo_100_100/B56ZkLW_xbHIAU-/0/1756832202660/a16zspeedrun_logo?e=1766620800&v=beta&t=21pLFyf_mFCrfQrQOu8r1CejPLaMTw_-YLkUdwACzYE",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQEtQ3FiaYNBLQ/company-logo_400_400/B56ZkLW_xbHIAc-/0/1756832202660/a16zspeedrun_logo?e=1766620800&v=beta&t=XinTV0FZtfee7Omc7ZV8jf9dyCeMHslJB7PIquOL2vM",
+                                "width": 400,
+                                "height": 400
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQEtQ3FiaYNBLQ/company-logo_200_200/B56ZkLW_xbHIAM-/0/1756832202660/a16zspeedrun_logo?e=1766620800&v=beta&t=6czIqi_FmlWqI12dwJnuEhwCeUNrMyKXZ3X7JhJQiO4",
+                                "width": 200,
+                                "height": 200
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 99370436,
+                        "companyName": "Endo Health",
+                        "companyUsername": "endo-health-ai",
+                        "companyURL": "https://www.linkedin.com/company/endo-health-ai/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEWC6Ii600TFQ/company-logo_400_400/company-logo_400_400/0/1706249093885?e=1766620800&v=beta&t=4BRWFChAFpCQb1td6P7vXR6DOe-6gUU25jMuVPHXavk",
+                        "companyIndustry": "Health, Wellness & Fitness",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Software Engineer",
+                        "multiLocaleTitle": {
+                            "en_US": "Software Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Endo Health"
+                        },
+                        "location": "\ubbf8\uad6d \uce98\ub9ac\ud3ec\ub2c8\uc544 \uc0cc\ud504\ub780\uc2dc\uc2a4\ucf54",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 30935284,
+                        "companyName": "thingsflow",
+                        "companyUsername": "thingsflow",
+                        "companyURL": "https://www.linkedin.com/company/thingsflow/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQGU2p7T70I6WA/company-logo_400_400/company-logo_400_400/0/1659582155682/thingsflow_logo?e=1766620800&v=beta&t=RGFNAwByaRTpDeqTqyisJfX0VLI2xU0SjkMDxE46oJw",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "51 - 200",
+                        "title": "Lead Backend Engineer",
+                        "multiLocaleTitle": {
+                            "en_US": "Lead Backend Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "thingsflow"
+                        },
+                        "location": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 12,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 99370436,
+                        "companyName": "Endo Health",
+                        "companyUsername": "endo-health-ai",
+                        "companyURL": "https://www.linkedin.com/company/endo-health-ai/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEWC6Ii600TFQ/company-logo_400_400/company-logo_400_400/0/1706249093885?e=1766620800&v=beta&t=4BRWFChAFpCQb1td6P7vXR6DOe-6gUU25jMuVPHXavk",
+                        "companyIndustry": "Health, Wellness & Fitness",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Software Engineer",
+                        "multiLocaleTitle": {
+                            "en_US": "Software Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Endo Health"
+                        },
+                        "location": "\ubbf8\uad6d \uce98\ub9ac\ud3ec\ub2c8\uc544 \uc0cc\ud504\ub780\uc2dc\uc2a4\ucf54",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 30935284,
+                        "companyName": "thingsflow",
+                        "companyUsername": "thingsflow",
+                        "companyURL": "https://www.linkedin.com/company/thingsflow/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQGU2p7T70I6WA/company-logo_400_400/company-logo_400_400/0/1659582155682/thingsflow_logo?e=1766620800&v=beta&t=RGFNAwByaRTpDeqTqyisJfX0VLI2xU0SjkMDxE46oJw",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "51 - 200",
+                        "title": "Lead Backend Engineer",
+                        "multiLocaleTitle": {
+                            "en_US": "Lead Backend Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "thingsflow"
+                        },
+                        "location": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 12,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "US",
+                        "language": "en"
+                    },
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "en_US": "Il Han",
+                    "ko_KR": "\uc77c\ud55c"
+                },
+                "multiLocaleLastName": {
+                    "en_US": "Ryu",
+                    "ko_KR": "\ub958"
+                },
+                "multiLocaleHeadline": {
+                    "en_US": "Co-Founder @ Endo Health (a16z SR003)",
+                    "ko_KR": "Co-Founder @ Endo Health"
+                }
+            }
+        }
+    },
+    {
+        "name": "chrisheo",
+        "urn": "ACoAAAtXNJoB2qnVV__M_jvvfudvVNMToB9xgcU",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 190264474,
+                "urn": "ACoAAAtXNJoB2qnVV__M_jvvfudvVNMToB9xgcU",
+                "username": "chrisheo",
+                "firstName": "Chris",
+                "lastName": "H.",
+                "isCreator": false,
+                "isPremium": false,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQGTxjIrAOyS4A/profile-displayphoto-scale_100_100/B56ZkzcJtNI0Ac-/0/1757504643583?e=1766620800&v=beta&t=5G6t0UaEKwy6523xxehI0Xp1LrYOVONTmKripHWUK_8",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQGTxjIrAOyS4A/profile-displayphoto-scale_200_200/B56ZkzcJtNI0AY-/0/1757504643583?e=1766620800&v=beta&t=1d0v3LWvYS_THhIHe4U_99U745kzTChSxLDxuYyMgB4",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQGTxjIrAOyS4A/profile-displayphoto-crop_800_800/B56ZkzcJtNI0AI-/0/1757504643512?e=1766620800&v=beta&t=Tm4cGlW2xrJoe6n9yypXs5mCmpD1DPiUj7eBW5G4wUk",
+                        "width": 800,
+                        "height": 800
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQGTxjIrAOyS4A/profile-displayphoto-scale_400_400/B56ZkzcJtNI0Ag-/0/1757504643583?e=1766620800&v=beta&t=bY9ixox1zO0r3YLsU-YUVJxBPC7BBJoNuMHbSLzJPqM",
+                        "width": 400,
+                        "height": 400
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQGTxjIrAOyS4A/profile-displayphoto-scale_100_100/B56ZkzcJtNI0Ac-/0/1757504643583?e=1766620800&v=beta&t=5G6t0UaEKwy6523xxehI0Xp1LrYOVONTmKripHWUK_8",
+                        "width": 100,
+                        "height": 100
+                    }
+                ],
+                "backgroundImage": [],
+                "summary": "",
+                "headline": "Co-Founder",
+                "geo": {
+                    "country": "South Korea",
+                    "city": "Seoul",
+                    "full": "Seoul, South Korea",
+                    "countryCode": "kr"
+                },
+                "languages": [
+                    {
+                        "name": "English",
+                        "proficiency": "NATIVE_OR_BILINGUAL"
+                    },
+                    {
+                        "name": "Korean",
+                        "proficiency": "NATIVE_OR_BILINGUAL"
+                    }
+                ],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "Economics",
+                        "degree": "B.A.",
+                        "grade": "",
+                        "schoolName": "McGill University",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/mcgill-university/",
+                        "schoolId": "4855",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQFvv1npMZWzKA/company-logo_200_200/company-logo_200_200/0/1631348310705?e=1766620800&v=beta&t=NYhNRD3zNfPsSF26tH-9ku907KTKqZ-umoX7JsTbJ14",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQFvv1npMZWzKA/company-logo_100_100/company-logo_100_100/0/1631348310705?e=1766620800&v=beta&t=Vs1dYVnIY9D_mpu_xrbbdnf7U1JptZgjo0sdGOt10wI",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQFvv1npMZWzKA/company-logo_400_400/company-logo_400_400/0/1631348310705?e=1766620800&v=beta&t=xBAHsHDrR-bcNcFJj-2cAmT8WkCDIwiZn91vwuM9sTo",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "International Exchange Semester in Hong Kong",
+                        "grade": "",
+                        "schoolName": "The Chinese University of Hong Kong",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/the-chinese-university-of-hong-kong/",
+                        "schoolId": "13045",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQGymgMDXDNXQw/company-logo_100_100/B56ZrxT_n3MIAU-/0/1764985142942/the_chinese_university_of_hong_kong_logo?e=1766620800&v=beta&t=5g8B4cdMo917lFryuQ94Cf0zMTTPUaVnSN0oY4TyZrM",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQGymgMDXDNXQw/company-logo_400_400/B56ZrxT_n3MIAc-/0/1764985142942/the_chinese_university_of_hong_kong_logo?e=1766620800&v=beta&t=dajJihq_Q3rsr018pnUFcOSH4MwP8UootEdED9L-hMc",
+                                "width": 400,
+                                "height": 400
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/D560BAQGymgMDXDNXQw/company-logo_200_200/B56ZrxT_n3MIAM-/0/1764985142942/the_chinese_university_of_hong_kong_logo?e=1766620800&v=beta&t=fh9i2tg8ghjAzUrTn_1a2FWaMZ8G67dekqP-OF0yNDI",
+                                "width": 200,
+                                "height": 200
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 18583501,
+                        "companyName": "Stealth Startup",
+                        "companyUsername": "stealth-startup-community",
+                        "companyURL": "https://www.linkedin.com/company/stealth-startup-community/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_400_400/company-logo_400_400/0/1735368022724/stealth_startup_51_logo?e=1766620800&v=beta&t=W8p-1jv6wqBSgW9YQleRCimIfjxCDrwn01Ps65mFEP4",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Co-Founder",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Stealth Startup"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2409207,
+                        "companyName": "\uc7a1\ucf54\ub9ac\uc544(\uc720)",
+                        "companyUsername": "jobkorea",
+                        "companyURL": "https://www.linkedin.com/company/jobkorea/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEtBbhHhDHtdA/company-logo_400_400/B56Zkni7DIHMAc-/0/1757305090664/jobkorea_logo?e=1766620800&v=beta&t=LVqVihN3QGX9HhT4om0zGgoNWu74sT_txXIQbzWyI_4",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Strategic Projects",
+                        "multiLocaleTitle": {
+                            "en_US": "Strategic Projects"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "\uc7a1\ucf54\ub9ac\uc544(\uc720)"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Building a community jobs marketplace for foreigners in Korea and abroad.",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2024,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2025,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 14479249,
+                        "companyName": "Karrot",
+                        "companyUsername": "daangn",
+                        "companyURL": "https://www.linkedin.com/company/daangn/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQHKZKeatQRDUA/company-logo_400_400/B4EZokmgX0KcAY-/0/1761550666124/daangn_logo?e=1766620800&v=beta&t=x4jl-zJ2mbWrkT0Y5MkS52_1fiWt72kDxAomEo6Y6qA",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "201 - 500",
+                        "title": "Growth & Strategy",
+                        "multiLocaleTitle": {
+                            "en_US": "Growth & Strategy"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Karrot"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Karrot is South Korea\u2019s largest neighborhood marketplace and community app backed by DST Global.\n\n- Global Operations and Growth\n- Fundraising\n- New Verticals Expansion\n- Monetization",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2892254,
+                        "companyName": "Carousell",
+                        "companyUsername": "carousellgroup",
+                        "companyURL": "https://www.linkedin.com/company/carousellgroup/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQETxuGkcTm-Dw/company-logo_400_400/company-logo_400_400/0/1630570449681/carousell_logo?e=1766620800&v=beta&t=HMDCab5VIkJw9wyRYg3pA9SkAqTzXPo6pYyjJqSiS9M",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Corporate Development",
+                        "multiLocaleTitle": {
+                            "en_US": "Corporate Development"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Carousell"
+                        },
+                        "location": "Singapore",
+                        "locationType": "",
+                        "description": "Carousell is a Southeast Asia's largest marketplaces app backed by Sequoia Capital.\n\n- Global Operations and Growth\n- Fundraising\n- M&A\n- New Verticals Expansion",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2016,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2019,
+                            "month": 0,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 18583501,
+                        "companyName": "Stealth Startup",
+                        "companyUsername": "stealth-startup-community",
+                        "companyURL": "https://www.linkedin.com/company/stealth-startup-community/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_400_400/company-logo_400_400/0/1735368022724/stealth_startup_51_logo?e=1766620800&v=beta&t=W8p-1jv6wqBSgW9YQleRCimIfjxCDrwn01Ps65mFEP4",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Co-Founder",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Stealth Startup"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2409207,
+                        "companyName": "\uc7a1\ucf54\ub9ac\uc544(\uc720)",
+                        "companyUsername": "jobkorea",
+                        "companyURL": "https://www.linkedin.com/company/jobkorea/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEtBbhHhDHtdA/company-logo_400_400/B56Zkni7DIHMAc-/0/1757305090664/jobkorea_logo?e=1766620800&v=beta&t=LVqVihN3QGX9HhT4om0zGgoNWu74sT_txXIQbzWyI_4",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Strategic Projects",
+                        "multiLocaleTitle": {
+                            "en_US": "Strategic Projects"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "\uc7a1\ucf54\ub9ac\uc544(\uc720)"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Building a community jobs marketplace for foreigners in Korea and abroad.",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2024,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2025,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 14479249,
+                        "companyName": "Karrot",
+                        "companyUsername": "daangn",
+                        "companyURL": "https://www.linkedin.com/company/daangn/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQHKZKeatQRDUA/company-logo_400_400/B4EZokmgX0KcAY-/0/1761550666124/daangn_logo?e=1766620800&v=beta&t=x4jl-zJ2mbWrkT0Y5MkS52_1fiWt72kDxAomEo6Y6qA",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "201 - 500",
+                        "title": "Growth & Strategy",
+                        "multiLocaleTitle": {
+                            "en_US": "Growth & Strategy"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Karrot"
+                        },
+                        "location": "Seoul, South Korea",
+                        "locationType": "",
+                        "description": "Karrot is South Korea\u2019s largest neighborhood marketplace and community app backed by DST Global.\n\n- Global Operations and Growth\n- Fundraising\n- New Verticals Expansion\n- Monetization",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2020,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 2892254,
+                        "companyName": "Carousell",
+                        "companyUsername": "carousellgroup",
+                        "companyURL": "https://www.linkedin.com/company/carousellgroup/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQETxuGkcTm-Dw/company-logo_400_400/company-logo_400_400/0/1630570449681/carousell_logo?e=1766620800&v=beta&t=HMDCab5VIkJw9wyRYg3pA9SkAqTzXPo6pYyjJqSiS9M",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "501 - 1000",
+                        "title": "Corporate Development",
+                        "multiLocaleTitle": {
+                            "en_US": "Corporate Development"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Carousell"
+                        },
+                        "location": "Singapore",
+                        "locationType": "",
+                        "description": "Carousell is a Southeast Asia's largest marketplaces app backed by Sequoia Capital.\n\n- Global Operations and Growth\n- Fundraising\n- M&A\n- New Verticals Expansion",
+                        "employmentType": "",
+                        "start": {
+                            "year": 2016,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2019,
+                            "month": 0,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Valuation",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Corporate Finance",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Business Strategy",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "US",
+                        "language": "en"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "en_US": "Chris"
+                },
+                "multiLocaleLastName": {
+                    "en_US": "H."
+                },
+                "multiLocaleHeadline": {
+                    "en_US": "Co-Founder"
+                }
+            }
+        }
+    },
+    {
+        "name": "danielpkl",
+        "urn": "ACoAADjPVY0Bo0O_jz50_3QhcmfHti43Zyvhi2c",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 953111949,
+                "urn": "ACoAADjPVY0Bo0O_jz50_3QhcmfHti43Zyvhi2c",
+                "username": "danielpkl",
+                "firstName": "Daniel",
+                "lastName": "Park",
+                "isCreator": false,
+                "isPremium": true,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQEE9MuSNgmrDg/profile-displayphoto-scale_400_400/B56Zp8FoKkJsAk-/0/1763018445690?e=1766620800&v=beta&t=sF67lyuwR5YEsi1HrCR3zFBqJtBLF2CToVKYfkFe0v0",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQEE9MuSNgmrDg/profile-displayphoto-scale_200_200/B56Zp8FoKkJsAc-/0/1763018445690?e=1766620800&v=beta&t=QcBlqnRvbEJYKtEt-aLtf1-VFMSd5jtD_IH_cjZ-Kdw",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQEE9MuSNgmrDg/profile-displayphoto-scale_100_100/B56Zp8FoKkJsAg-/0/1763018445690?e=1766620800&v=beta&t=dDAOS2FFij_qTTB7rQor8WbTCEPiKMiNMzx11KBHeyw",
+                        "width": 100,
+                        "height": 100
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQEE9MuSNgmrDg/profile-displayphoto-crop_800_800/B56Zp8FoKkJsAM-/0/1763018445602?e=1766620800&v=beta&t=dhV5MNTryVghY_KLdXOGdRIRd3iiwiITWCIzZT1Iejk",
+                        "width": 800,
+                        "height": 800
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQEE9MuSNgmrDg/profile-displayphoto-scale_400_400/B56Zp8FoKkJsAk-/0/1763018445690?e=1766620800&v=beta&t=sF67lyuwR5YEsi1HrCR3zFBqJtBLF2CToVKYfkFe0v0",
+                        "width": 400,
+                        "height": 400
+                    }
+                ],
+                "backgroundImage": [
+                    {
+                        "width": 1400,
+                        "height": 349,
+                        "url": "https://media.licdn.com/dms/image/v2/D4E16AQH0rVn0msHnHg/profile-displaybackgroundimage-shrink_350_1400/B4EZnrcMDqHMAg-/0/1760591659818?e=1766620800&v=beta&t=-k0nMwGTlTczorZoGbqDWwVDm_SDUk3m9cwgp6ZQXJY"
+                    },
+                    {
+                        "width": 800,
+                        "height": 199,
+                        "url": "https://media.licdn.com/dms/image/v2/D4E16AQH0rVn0msHnHg/profile-displaybackgroundimage-shrink_200_800/B4EZnrcMDqHMAc-/0/1760591659818?e=1766620800&v=beta&t=23cWZL_cZbfI8cOvb2ytWSyljZnoTTDuvDXw_jYMJck"
+                    }
+                ],
+                "summary": "I'm in a pickle.",
+                "headline": "Co-Founder & CEO at Pickle",
+                "geo": {
+                    "country": "United States",
+                    "city": "San Francisco, California",
+                    "full": "San Francisco, California, United States",
+                    "countryCode": "us"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 2025,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2025,
+                            "month": 4,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "W25",
+                        "grade": "",
+                        "schoolName": "Y Combinator",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/y-combinator/",
+                        "schoolId": "167872",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGPzdBPNxrmEg/company-logo_200_200/company-logo_200_200/0/1673555093250/y_combinator_logo?e=1766620800&v=beta&t=JH_FwP-ZN7AuwJjxqSV7QURndlaEiorhIAd0gVTa_To",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGPzdBPNxrmEg/company-logo_100_100/company-logo_100_100/0/1673555093250/y_combinator_logo?e=1766620800&v=beta&t=F0InABzIUNV7n3YJSBlewO_n-ChaMVpJxZmyqW6pmyg",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGPzdBPNxrmEg/company-logo_400_400/company-logo_400_400/0/1673555093250/y_combinator_logo?e=1766620800&v=beta&t=FGLyfg6RRWDTdA4_Jd9TBkmqMqKdvAnhrwf04T0sE2Q",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 2017,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2023,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "Doctor of Medicine - MD",
+                        "grade": "",
+                        "schoolName": "Kyung Hee University \uacbd\ud76c\ub300\ud559\uad50",
+                        "description": "dropped out",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/%EA%B2%BD%ED%9D%AC%EB%8C%80%ED%95%99%EA%B5%90/",
+                        "schoolId": "15094702",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQGLh8A-ZO9ySw/company-logo_200_200/company-logo_200_200/0/1631398531626/_logo?e=1766620800&v=beta&t=3Z2cvtvVzlZnD9MGrBX0GGpcyn4AEWyf6i2on9xoA0M",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQGLh8A-ZO9ySw/company-logo_100_100/company-logo_100_100/0/1631398531626/_logo?e=1766620800&v=beta&t=FKALCPEJO6Yemhi3ZZLphzNqIk4bL6l5vSrBCO1zKPw",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQGLh8A-ZO9ySw/company-logo_400_400/company-logo_400_400/0/1631398531626/_logo?e=1766620800&v=beta&t=wnH16QxoLjuJgBz1kI5Dva4izojNsp743dQe4P1l4Gc",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    },
+                    {
+                        "start": {
+                            "year": 2014,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2017,
+                            "month": 2,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "",
+                        "degree": "Class of 2014 (23th)",
+                        "grade": "",
+                        "schoolName": "Hansung Science High School",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/hansung-science-high-school-korea/",
+                        "schoolId": "74075892",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQHtxhNARXISww/company-logo_200_200/company-logo_200_200/0/1630641175824?e=1766620800&v=beta&t=cHzwNs1ZYPEPO7y1X8WBD-SBlWB9Uvp9Alc62h9oeCY",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQHtxhNARXISww/company-logo_100_100/company-logo_100_100/0/1630641175824?e=1766620800&v=beta&t=5i1aBa5eK4WuyZsPOExU-f0M5785-iPvvrf-_Q1C7Ro",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C560BAQHtxhNARXISww/company-logo_400_400/company-logo_400_400/0/1630641175824?e=1766620800&v=beta&t=9p3o5jYyfLzqzDLMiipufhUN4JyCb51sv_DZ3CiFD20",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 104907321,
+                        "companyName": "Pickle",
+                        "companyUsername": "pickle-com",
+                        "companyURL": "https://www.linkedin.com/company/pickle-com/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQErDD7kraj_MA/company-logo_400_400/B4EZnrXUEeKcAY-/0/1760590381869/get_pickle_ai_logo?e=1766620800&v=beta&t=mLNPyri8C4T897StFHhPecv6mD0riwQqwOjILxmRZSw",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Co-Founder and CEO",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder and CEO",
+                            "ko_KR": "Co-Founder and CEO"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Pickle",
+                            "ko_KR": "Pickle"
+                        },
+                        "location": "San Francisco Bay Area",
+                        "locationType": "",
+                        "description": "Where your life context becomes understanding.",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 0,
+                        "companyName": "Kumefood",
+                        "companyUsername": "",
+                        "companyURL": "",
+                        "companyLogo": "",
+                        "companyIndustry": "",
+                        "companyStaffCountRange": "",
+                        "title": "Founder",
+                        "multiLocaleTitle": {
+                            "en_US": "Founder",
+                            "ko_KR": "Chief Executive Officer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kumefood",
+                            "ko_KR": "Kumefood"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "I bootstrapped an e-commerce brand for organic produce that connected farmers and fisheries directly with customers, using a computer vision model to ensure freshness. We grew it to over $2M in annual revenue. I started my entrepreneurial journey selling tons of fruit \u2014 so I genuinely believe I can sell anything.",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 3,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 104907321,
+                        "companyName": "Pickle",
+                        "companyUsername": "pickle-com",
+                        "companyURL": "https://www.linkedin.com/company/pickle-com/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQErDD7kraj_MA/company-logo_400_400/B4EZnrXUEeKcAY-/0/1760590381869/get_pickle_ai_logo?e=1766620800&v=beta&t=mLNPyri8C4T897StFHhPecv6mD0riwQqwOjILxmRZSw",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Co-Founder and CEO",
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder and CEO",
+                            "ko_KR": "Co-Founder and CEO"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Pickle",
+                            "ko_KR": "Pickle"
+                        },
+                        "location": "San Francisco Bay Area",
+                        "locationType": "",
+                        "description": "Where your life context becomes understanding.",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 7,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 0,
+                        "companyName": "Kumefood",
+                        "companyUsername": "",
+                        "companyURL": "",
+                        "companyLogo": "",
+                        "companyIndustry": "",
+                        "companyStaffCountRange": "",
+                        "title": "Founder",
+                        "multiLocaleTitle": {
+                            "en_US": "Founder",
+                            "ko_KR": "Chief Executive Officer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "en_US": "Kumefood",
+                            "ko_KR": "Kumefood"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "I bootstrapped an e-commerce brand for organic produce that connected farmers and fisheries directly with customers, using a computer vision model to ensure freshness. We grew it to over $2M in annual revenue. I started my entrepreneurial journey selling tons of fruit \u2014 so I genuinely believe I can sell anything.",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2020,
+                            "month": 11,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 3,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Project Management",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Team Leadership",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "US",
+                        "language": "en"
+                    },
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "en_US": "Daniel",
+                    "ko_KR": "Daniel"
+                },
+                "multiLocaleLastName": {
+                    "en_US": "Park",
+                    "ko_KR": "Park"
+                },
+                "multiLocaleHeadline": {
+                    "en_US": "Co-Founder & CEO at Pickle",
+                    "ko_KR": "Co-Founder & CEO at Pickle"
+                }
+            }
+        }
+    },
+    {
+        "name": "tarsyang",
+        "urn": "ACoAAEKP470BhWsj2xulaCPCi98GSRSYj4F1u00",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 1116726205,
+                "urn": "ACoAAEKP470BhWsj2xulaCPCi98GSRSYj4F1u00",
+                "username": "tarsyang",
+                "firstName": "Tars",
+                "lastName": "Yang",
+                "isCreator": false,
+                "isPremium": false,
+                "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQHWueOAt-Rv6Q/profile-displayphoto-crop_800_800/B56ZjohPCVIAAM-/0/1756247683793?e=1766620800&v=beta&t=P0qyu3IBSXaC2PRVTHycRpkiMFCBhJoqdnDlVnJ8Iyc",
+                "profilePictures": [
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQHWueOAt-Rv6Q/profile-displayphoto-scale_200_200/B56ZjohPCVIAAc-/0/1756247683877?e=1766620800&v=beta&t=LeEbcxFGSmJMyD_9KD7EjJM_e-mVBm0Q9i4S05ZdJkg",
+                        "width": 200,
+                        "height": 200
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQHWueOAt-Rv6Q/profile-displayphoto-scale_100_100/B56ZjohPCVIAAg-/0/1756247683877?e=1766620800&v=beta&t=eYCDB3tJcVp1IQvpumEVqTz0W5bYyGL5lBH7l9MbZzo",
+                        "width": 100,
+                        "height": 100
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQHWueOAt-Rv6Q/profile-displayphoto-scale_400_400/B56ZjohPCVIAAk-/0/1756247683877?e=1766620800&v=beta&t=soV0QalW78TPqIjNj2qsc7IFsGysxkCF7_IIhQSJ9fw",
+                        "width": 400,
+                        "height": 400
+                    },
+                    {
+                        "url": "https://media.licdn.com/dms/image/v2/D5603AQHWueOAt-Rv6Q/profile-displayphoto-crop_800_800/B56ZjohPCVIAAM-/0/1756247683793?e=1766620800&v=beta&t=P0qyu3IBSXaC2PRVTHycRpkiMFCBhJoqdnDlVnJ8Iyc",
+                        "width": 800,
+                        "height": 800
+                    }
+                ],
+                "backgroundImage": [
+                    {
+                        "width": 800,
+                        "height": 200,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQHvZPpHMi_xTQ/profile-displaybackgroundimage-shrink_200_800/B56ZjtoAYCHAAY-/0/1756333344945?e=1766620800&v=beta&t=MqYuDmEt7J5HhlcSBVzunN6zXFjeRSIl7W5QXCYoWts"
+                    },
+                    {
+                        "width": 1400,
+                        "height": 350,
+                        "url": "https://media.licdn.com/dms/image/v2/D5616AQHvZPpHMi_xTQ/profile-displaybackgroundimage-shrink_350_1400/B56ZjtoAYCHAAc-/0/1756333344945?e=1766620800&v=beta&t=8S3NmlifhQNdyMgfz2FIKEztCchd0UZI0BD4HciufbA"
+                    }
+                ],
+                "summary": "",
+                "headline": "Founding Engineer at Pickle\n",
+                "geo": {
+                    "country": "",
+                    "city": "United States",
+                    "full": "United States",
+                    "countryCode": "us"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 2021,
+                            "month": 3,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 1,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "Hacking Defense",
+                        "degree": "",
+                        "grade": "",
+                        "schoolName": "Korea Digital Media High School",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/dimigo/",
+                        "schoolId": "13324071",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFwmkgcXy6Q9g/company-logo_200_200/company-logo_200_200/0/1631319658385?e=1766620800&v=beta&t=YbXRMOW9ppkINBwE8EVf9yEKX4Ga1NJ-6vw2Y8RHGJw",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFwmkgcXy6Q9g/company-logo_100_100/company-logo_100_100/0/1631319658385?e=1766620800&v=beta&t=fz013Fm7CfSe5wNVKz8Ebxs_4aATxiVsrqQBNd_mNPk",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFwmkgcXy6Q9g/company-logo_400_400/company-logo_400_400/0/1631319658385?e=1766620800&v=beta&t=0oZ6RmzjKMfHObP536bf3m-CQ8hk4_Qdme80HXvcw54",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 104907321,
+                        "companyName": "Pickle",
+                        "companyUsername": "pickle-com",
+                        "companyURL": "https://www.linkedin.com/company/pickle-com/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQErDD7kraj_MA/company-logo_400_400/B4EZnrXUEeKcAY-/0/1760590381869/get_pickle_ai_logo?e=1766620800&v=beta&t=mLNPyri8C4T897StFHhPecv6mD0riwQqwOjILxmRZSw",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Founding Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Founding Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Pickle"
+                        },
+                        "location": "San Francisco, California, United States",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 6,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 104907321,
+                        "companyName": "Pickle",
+                        "companyUsername": "pickle-com",
+                        "companyURL": "https://www.linkedin.com/company/pickle-com/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQErDD7kraj_MA/company-logo_400_400/B4EZnrXUEeKcAY-/0/1760590381869/get_pickle_ai_logo?e=1766620800&v=beta&t=mLNPyri8C4T897StFHhPecv6mD0riwQqwOjILxmRZSw",
+                        "companyIndustry": "Computer Software",
+                        "companyStaffCountRange": "11 - 50",
+                        "title": "Founding Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Founding Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "Pickle"
+                        },
+                        "location": "San Francisco, California, United States",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2025,
+                            "month": 6,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [],
+                "courses": [],
+                "certifications": [],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    },
+                    {
+                        "country": "US",
+                        "language": "en"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "en_US": "Tars",
+                    "ko_KR": "Tars"
+                },
+                "multiLocaleLastName": {
+                    "en_US": "Yang",
+                    "ko_KR": "Yang"
+                },
+                "multiLocaleHeadline": {
+                    "en_US": "Founding Engineer at Pickle\n",
+                    "ko_KR": "Founding Engineer at Pickle"
+                }
+            }
+        }
+    },
+    {
+        "name": "dongmin-na-2b92b4253",
+        "urn": "ACoAAD6Dn60BrtKAUyDUdgJUf9HxUaNSLEAqVrw",
+        "data": {
+            "success": true,
+            "statusCode": 200,
+            "message": "Data retrieved successfully",
+            "errors": null,
+            "data": {
+                "id": 1048813485,
+                "urn": "ACoAAD6Dn60BrtKAUyDUdgJUf9HxUaNSLEAqVrw",
+                "username": "dongmin-na-2b92b4253",
+                "firstName": "Dongmin",
+                "lastName": "Na",
+                "isCreator": false,
+                "isPremium": false,
+                "profilePicture": "",
+                "profilePictures": [],
+                "backgroundImage": [],
+                "summary": "",
+                "headline": "Backend Engineer at \uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)",
+                "geo": {
+                    "country": "South Korea",
+                    "city": "Seoul",
+                    "full": "Seoul, South Korea",
+                    "countryCode": "kr"
+                },
+                "languages": [],
+                "educations": [
+                    {
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "fieldOfStudy": "Computer Engineering",
+                        "degree": "Bachelor's degree",
+                        "grade": "",
+                        "schoolName": "Gachon University",
+                        "description": "",
+                        "activities": "",
+                        "url": "https://www.linkedin.com/school/gachon-university/",
+                        "schoolId": "6395812",
+                        "logo": [
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQHHtza2EH0ThA/company-logo_200_200/company-logo_200_200/0/1630612693541/gachon_university_logo?e=1766620800&v=beta&t=NbHGDauE_xphEhDyuk8wJaflm3JyseytUgWPgLiS9OE",
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQHHtza2EH0ThA/company-logo_100_100/company-logo_100_100/0/1630612693541/gachon_university_logo?e=1766620800&v=beta&t=_Eu662RyvMtkH28YNSTMH1UhMD3ZsH_RyjV41dREtXE",
+                                "width": 100,
+                                "height": 100
+                            },
+                            {
+                                "url": "https://media.licdn.com/dms/image/v2/C510BAQHHtza2EH0ThA/company-logo_400_400/company-logo_400_400/0/1630612693541/gachon_university_logo?e=1766620800&v=beta&t=aBd-1Z46Q4etxCC0731r8vX3asSkcv4sLy2N0MtOtM4",
+                                "width": 400,
+                                "height": 400
+                            }
+                        ]
+                    }
+                ],
+                "position": [
+                    {
+                        "companyId": 106444425,
+                        "companyName": "\uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)",
+                        "companyUsername": "ohousepay",
+                        "companyURL": "https://www.linkedin.com/company/ohousepay/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQGhRuSJUghArg/company-logo_400_400/B56ZneKE3yIsAc-/0/1760368807828/ohousepay_logo?e=1766620800&v=beta&t=MotKBXoraFaiUHVkReHjBDLYKCiOD9qzOORxLg9mXC4",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Backend Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Backend Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 9,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 54370851,
+                        "companyName": "\ub86f\ub370\uc815\ubcf4\ud1b5\uc2e0",
+                        "companyUsername": "\ub86f\ub370\uc774\ub178\ubca0\uc774\ud2b8",
+                        "companyURL": "https://www.linkedin.com/company/%EB%A1%AF%EB%8D%B0%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%ED%8A%B8/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHiYQj74nxyKA/company-logo_400_400/company-logo_400_400/0/1711864527608/_logo?e=1766620800&v=beta&t=JJ54ZRXUELqCskwh9_CfaNUwn07kDPDEVeNJybUMKLU",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Software Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Software Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\ub86f\ub370\uc815\ubcf4\ud1b5\uc2e0"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "- \ub77c\uc774\ube0c\ucee4\uba38\uc2a4 wyd \ud504\ub85c\uc81d\ud2b8\n- \uc678\ubd80\uc0ac LH \ud3ec\uc778\ud2b8 \uc804\ud658, PG \uad50\uccb4 \ud504\ub85c\uc81d\ud2b8 \uc218\ud589",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2021,
+                            "month": 10,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 8,
+                            "day": 0
+                        }
+                    }
+                ],
+                "fullPositions": [
+                    {
+                        "companyId": 106444425,
+                        "companyName": "\uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)",
+                        "companyUsername": "ohousepay",
+                        "companyURL": "https://www.linkedin.com/company/ohousepay/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQGhRuSJUghArg/company-logo_400_400/B56ZneKE3yIsAc-/0/1760368807828/ohousepay_logo?e=1766620800&v=beta&t=MotKBXoraFaiUHVkReHjBDLYKCiOD9qzOORxLg9mXC4",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "2 - 10",
+                        "title": "Backend Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Backend Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2024,
+                            "month": 9,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        }
+                    },
+                    {
+                        "companyId": 54370851,
+                        "companyName": "\ub86f\ub370\uc815\ubcf4\ud1b5\uc2e0",
+                        "companyUsername": "\ub86f\ub370\uc774\ub178\ubca0\uc774\ud2b8",
+                        "companyURL": "https://www.linkedin.com/company/%EB%A1%AF%EB%8D%B0%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%ED%8A%B8/",
+                        "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHiYQj74nxyKA/company-logo_400_400/company-logo_400_400/0/1711864527608/_logo?e=1766620800&v=beta&t=JJ54ZRXUELqCskwh9_CfaNUwn07kDPDEVeNJybUMKLU",
+                        "companyIndustry": "Information Technology & Services",
+                        "companyStaffCountRange": "1001 - 5000",
+                        "title": "Software Engineer",
+                        "multiLocaleTitle": {
+                            "ko_KR": "Software Engineer"
+                        },
+                        "multiLocaleCompanyName": {
+                            "ko_KR": "\ub86f\ub370\uc815\ubcf4\ud1b5\uc2e0"
+                        },
+                        "location": "",
+                        "locationType": "",
+                        "description": "- \ub77c\uc774\ube0c\ucee4\uba38\uc2a4 wyd \ud504\ub85c\uc81d\ud2b8\n- \uc678\ubd80\uc0ac LH \ud3ec\uc778\ud2b8 \uc804\ud658, PG \uad50\uccb4 \ud504\ub85c\uc81d\ud2b8 \uc218\ud589",
+                        "employmentType": "Full-time",
+                        "start": {
+                            "year": 2021,
+                            "month": 10,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 2024,
+                            "month": 8,
+                            "day": 0
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "name": "Next.js",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Redis",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Kotlin",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": " Spring",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "React.js",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Typescript",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": " javascript",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Java",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Spring",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Opera",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Mybatis",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "Mssql",
+                        "passedSkillAssessment": false
+                    },
+                    {
+                        "name": "AEM",
+                        "passedSkillAssessment": false
+                    }
+                ],
+                "courses": [],
+                "certifications": [
+                    {
+                        "name": "SQLD",
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "authority": "\ud55c\uad6d\ub370\uc774\ud130\uc0b0\uc5c5\uc9c4\ud765\uc6d0",
+                        "company": {
+                            "name": "\ud55c\uad6d\ub370\uc774\ud130\uc0b0\uc5c5\uc9c4\ud765\uc6d0",
+                            "universalName": "",
+                            "logo": "https://media.licdn.com/dms/image/v2/C560BAQGBIqH5HNn8vQ/company-logo_200_200/company-logo_200_200/0/1661207230541?e=1766620800&v=beta&t=KoY1haUyaHuOt7GCwpOOe0sZ2oUhgGjjOPN62ISmqW8",
+                            "staffCountRange": {},
+                            "headquarter": {}
+                        },
+                        "timePeriod": {
+                            "start": {
+                                "year": 0,
+                                "month": 0,
+                                "day": 0
+                            },
+                            "end": {
+                                "year": 0,
+                                "month": 0,
+                                "day": 0
+                            }
+                        }
+                    },
+                    {
+                        "name": "\uc815\ubcf4\ucc98\ub9ac\uae30\uc0ac",
+                        "start": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "end": {
+                            "year": 0,
+                            "month": 0,
+                            "day": 0
+                        },
+                        "authority": "\ud55c\uad6d\uc0b0\uc5c5\uc778\ub825\uacf5\ub2e8(HRD Korea)",
+                        "company": {
+                            "name": "\ud55c\uad6d\uc0b0\uc5c5\uc778\ub825\uacf5\ub2e8(HRD Korea)",
+                            "universalName": "",
+                            "logo": "https://media.licdn.com/dms/image/v2/C560BAQHJig-OZkJFDw/company-logo_200_200/company-logo_200_200/0/1630643693839/hrd_korea_logo?e=1766620800&v=beta&t=sRCVIjXE9S0gWrlh16ewnJgRC2jnWv3pdK0OohkOPIk",
+                            "staffCountRange": {},
+                            "headquarter": {}
+                        },
+                        "timePeriod": {
+                            "start": {
+                                "year": 0,
+                                "month": 0,
+                                "day": 0
+                            },
+                            "end": {
+                                "year": 0,
+                                "month": 0,
+                                "day": 0
+                            }
+                        }
+                    }
+                ],
+                "projects": {},
+                "publications": [],
+                "volunteering": [],
+                "supportedLocales": [
+                    {
+                        "country": "KR",
+                        "language": "ko"
+                    }
+                ],
+                "multiLocaleFirstName": {
+                    "ko_KR": "Dongmin"
+                },
+                "multiLocaleLastName": {
+                    "ko_KR": "Na"
+                },
+                "multiLocaleHeadline": {
+                    "ko_KR": "Backend Engineer at \uc624\ub298\uc758\uc9d1\ud398\uc774(Ohousepay)"
+                }
+            }
+        }
+    }
+]
