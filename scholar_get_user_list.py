@@ -79,6 +79,7 @@ def sample_hap():
     weights = [item["ratio_percent"] for item in surnames]
     return [random.choices(keywords, k=1)[0].lower(), random.choices(names, weights=weights, k=1)[0].lower()]
 
+
 api_key = ""
 url = "https://api.scrapingdog.com/google_scholar"
 
