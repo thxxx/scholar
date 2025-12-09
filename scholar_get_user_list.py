@@ -88,11 +88,11 @@ pds = pd.read_csv("output_onlydog.csv").to_dict(orient="records")
 datas = pds
 start_time = time.time()
 
-for count in range(400):
+for count in range(800):
     rdns = sample_hap()
     k = rdns[0]
     n = rdns[1]
-    indexes = random.sample([b for b in range(100)], k=5)
+    indexes = random.sample([b for b in range(100)], k=10)
 
     for page in indexes:
         try:
@@ -144,13 +144,15 @@ for count in range(400):
             print(f"[{k} {n} {page} = {count} = taken time : {time.time() - start_time}] Data lens : ", len(datas))
             df = pd.DataFrame(datas)
             df.to_csv("output_onlydog.csv", index=False)
+            if count % 10 == 9:
+                df.to_csv("output_backup.csv", index=False)
         except Exception as e:
             print(f"[{k} {n} {page}] In Out error ", e)
             continue
 
 print("\n\nStart get new user list\n\n")
 
-for count in range(100):
+for count in range(200):
     rdns = sample_hap()
     k = rdns[0]
     n = rdns[1]
