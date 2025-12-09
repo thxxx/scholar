@@ -54,9 +54,6 @@ for school in schools:
                 
                 if idx == 1:
                     print(f"\nStart for total_results: {data['search_information']['total_results']}\n\n")
-                if data['search_information']['total_results'] < idx*10 - 10:
-                    print(f"\n\nEnd for total_results: {data['search_information']['total_results']}\n\n")
-                    break
             except Exception as e:
                 print(f"Error: {e}")
                 continue
