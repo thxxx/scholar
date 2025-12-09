@@ -62,11 +62,11 @@ if __name__ == "__main__":
                     datas.append(input_data)
                 
                 if idx == 1:
-                    print(f"\nStart for total_results: {uni} {keyword} - {data['search_information']['total_results']}\n\n")
+                    print(f"\nStart for total_results: {keyword1} {keyword2} - {data['search_information']['total_results']}\n\n")
                 
                 print(f"For {keyword1} {keyword2} {idx} - {len(datas)}")
             except Exception as e:
-                print(f"Error [{uni} {keyword} {idx}]: {e}")
+                print(f"Error [{keyword1} {keyword2} {idx}]: {e}")
                 continue
 
         print("\n\nSAVE!!\n\n")

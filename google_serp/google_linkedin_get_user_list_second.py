@@ -43,6 +43,9 @@ if __name__ == "__main__":
             break
 
         try:
+            if len(data['organic_results']) < 2:
+                print(f"End For {keyword1} {keyword2} {idx} - {len(datas)}")
+                break
             for d in data['organic_results']:
                 name = d['title']
                 link = d['link']
