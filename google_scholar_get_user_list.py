@@ -13,7 +13,7 @@ keywords = ["deep", "machine", "artificial intelligence", "computer"] # 각 2000
 datas = []
 for uni in unis:
     for keyword in keywords:
-        for idx in tqdm(range(1, int(200 * unis[uni]))):
+        for idx in tqdm(range(0, int(200 * unis[uni]))):
             params = {
                 "api_key": api_key,
                 "query": f"{uni} {keyword} site:https://scholar.google.com/citations",
@@ -47,12 +47,9 @@ for uni in unis:
                     datas.append(input_data)
                 
                 if idx == 1:
-                    print(f"\nStart for total_results: {data['search_information']['total_results']}\n\n")
-                if data['search_information']['total_results'] < idx*10 - 10:
-                    print(f"\n\nEnd for total_results: {data['search_information']['total_results']}\n\n")
-                    break
+                    print(f"\nStart for total_results: {uni} {keyword} - {data['search_information']['total_results']}\n\n")
             except Exception as e:
-                print(f"Error: {e}")
+                print(f"Error [{uni} {keyword} {idx}]: {e}")
                 continue
 
         pd.DataFrame(datas).to_csv('scholar_search_results.csv', index=False)
