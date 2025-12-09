@@ -1,22 +1,35 @@
 import requests
 import pandas as pd
 from tqdm import tqdm
+import argparse
+import os
 
-api_key = ""
+api_key = "6933b34c7cb6bab8da12fbfd"
 url = "https://api.scrapingdog.com/google"
 
-unis = {
-    'korea.ac.kr': 1, 'yonsei': 1, 'snu': 2, 'kaist': 2, 'postech': 1
-}
-keywords = ["deep", "machine", "artificial intelligence", "computer"] # 각 2000명씩
+keywords1 = {'korea.ac.kr': 1, 'yonsei': 1, 'snu': 2, 'kaist': 2, 'postech': 1}
+keywords2 = {"deep": 1, "machine": 1, "artificial intelligence": 1, "computer": 1, "generative": 1, "nlp": 1, "vision": 1}
 
-datas = []
-for uni in unis:
-    for keyword in keywords:
-        for idx in tqdm(range(0, int(200 * unis[uni]))):
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--keyword1", type=str, default="", required=True)
+    args = parser.parse_args()
+
+    keyword1 = args.keyword1
+
+    filename = f"scholar_search_results_{keyword1.replace(' ', '_')}.csv"
+
+    if os.path.exists(filename):
+        datas = pd.read_csv(filename).to_dict(orient="records")
+    else:
+        datas = []
+
+    for keyword2 in keywords2:
+        print(f"\n\nStart for {keyword1}, {keyword2}!!\n\n")
+        for idx in tqdm(range(0, int(100 * keywords1[keyword1] * keywords2[keyword2]))):
             params = {
                 "api_key": api_key,
-                "query": f"{uni} {keyword} site:https://scholar.google.com/citations",
+                "query": f"{keyword1} {keyword2} site:https://scholar.google.com/citations",
                 "country": "kr",
                 "page": f"{idx}",
                 "advance_search": "true",
@@ -29,6 +42,8 @@ for uni in unis:
                 data = response.json()
             else:
                 print(f"[{idx}] - Request failed with status code: {response.status_code}")
+                pd.DataFrame(datas).to_csv(filename, index=False)
+                break
 
             try:
                 for d in data['organic_results']:
@@ -48,9 +63,12 @@ for uni in unis:
                 
                 if idx == 1:
                     print(f"\nStart for total_results: {uni} {keyword} - {data['search_information']['total_results']}\n\n")
+                
+                print(f"For {keyword1} {keyword2} {idx} - {len(datas)}")
             except Exception as e:
                 print(f"Error [{uni} {keyword} {idx}]: {e}")
                 continue
 
-        pd.DataFrame(datas).to_csv('scholar_search_results.csv', index=False)
+        print("\n\nSAVE!!\n\n")
+        pd.DataFrame(datas).to_csv(filename, index=False)
 

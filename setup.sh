@@ -1,7 +1,8 @@
-sudo apt-get update
-sudo apt-get install -y ffmpeg, vim
-sudo apt-get install -y python3-pip unzip wget
-sudo apt-get install -y xvfb google-chrome-stable
+apt-get update
+apt-get install -y ffmpeg
+apt-get install -y vim
+apt-get install -y python3-pip unzip wget
+apt-get install -y xvfb google-chrome-stable
 
 git config user.email zxcv05999@naver.com
 git config user.name thxxx
