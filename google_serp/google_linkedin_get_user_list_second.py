@@ -26,8 +26,8 @@ if __name__ == "__main__":
     for idx in tqdm(range(0, int(100))):
         params = {
             "api_key": api_key,
-            "query": f"{keyword1} {keyword2} site:linkedin.com/in",
-            "country": "kr",
+            "query": f"{keyword2} {keyword1} site:linkedin.com/in",
+            "country": "us",
             "page": f"{idx}",
             "advance_search": "true",
             "domain": "google.com"
