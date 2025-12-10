@@ -3,6 +3,7 @@ nohup python3 google_scholar_get_user_list_second.py --keyword1 "Stanford" > log
 nohup python3 google_scholar_get_user_list_second.py --keyword1 "UC Berkeley" > log_UC_BERKELEY.out 2>&1 &
 nohup python3 google_scholar_get_user_list_second.py --keyword1 "CMU" > log_CMU.out 2>&1 &
 
+
 nohup python3 google_scholar_get_user_list.py --keyword1 "korea.ac.kr" > log_korea.out 2>&1 &
 nohup python3 google_scholar_get_user_list.py --keyword1 "yonsei" > log_yonsei.out 2>&1 &
 nohup python3 google_scholar_get_user_list.py --keyword1 "snu" > log_snu.out 2>&1 &

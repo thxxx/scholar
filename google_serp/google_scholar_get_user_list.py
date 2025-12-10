@@ -29,8 +29,8 @@ if __name__ == "__main__":
         for idx in tqdm(range(0, int(100 * keywords1[keyword1] * keywords2[keyword2]))):
             params = {
                 "api_key": api_key,
-                "query": f"{keyword1} {keyword2} site:https://scholar.google.com/citations",
-                "country": "kr",
+                "query": f"{keyword2} {keyword1} site:https://scholar.google.com/citations",
+                "country": "us",
                 "page": f"{idx}",
                 "advance_search": "true",
                 "domain": "google.com"
@@ -46,6 +46,9 @@ if __name__ == "__main__":
                 break
 
             try:
+                if len(data['organic_results']) < 2:
+                    print(f"End For {keyword1} {keyword2} {idx} - {len(datas)}")
+                    break
                 for d in data['organic_results']:
                     name = d['title']
                     link = d['link']
@@ -62,11 +65,11 @@ if __name__ == "__main__":
                     datas.append(input_data)
                 
                 if idx == 1:
-                    print(f"\nStart for total_results: {uni} {keyword} - {data['search_information']['total_results']}\n\n")
+                    print(f"\nStart for total_results: {keyword1} {keyword2} - {data['search_information']['total_results']}\n\n")
                 
                 print(f"For {keyword1} {keyword2} {idx} - {len(datas)}")
             except Exception as e:
-                print(f"Error [{uni} {keyword} {idx}]: {e}")
+                print(f"Error [{keyword2} {keyword1} {idx}]: {e}")
                 continue
 
         print("\n\nSAVE!!\n\n")
