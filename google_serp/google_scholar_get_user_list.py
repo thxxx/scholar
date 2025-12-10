@@ -69,7 +69,11 @@ if __name__ == "__main__":
                 
                 print(f"For {keyword1} {keyword2} {idx} - {len(datas)}")
             except Exception as e:
+<<<<<<< HEAD
                 print(f"Error [{keyword2} {keyword1} {idx}]: {e}")
+=======
+                print(f"Error [{keyword1} {keyword2} {idx}]: {e}")
+>>>>>>> 3fc07ce6a0fcff1433a8dec4d3e02ded97e39236
                 continue
 
         print("\n\nSAVE!!\n\n")

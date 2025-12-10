@@ -29,8 +29,13 @@ if __name__ == "__main__":
         for idx in tqdm(range(0, int(50 * keywords1[keyword1] * keywords2[keyword2]))):
             params = {
                 "api_key": api_key,
+<<<<<<< HEAD
                 "query": f"{keyword2} {keyword1} site:https://scholar.google.com/citations",
                 "country": "us",
+=======
+                "query": f"{keyword1} {keyword2} site:https://scholar.google.com/citations",
+                "country": "kr",
+>>>>>>> 3fc07ce6a0fcff1433a8dec4d3e02ded97e39236
                 "page": f"{idx}",
                 "advance_search": "true",
                 "domain": "google.com"
@@ -69,7 +74,7 @@ if __name__ == "__main__":
                 
                 print(f"For {keyword1} {keyword2} {idx} - {len(datas)}")
             except Exception as e:
-                print(f"Error: {e}")
+                print(f"Error [{keyword1} {keyword2} {idx}]: {e}")
                 continue
 
         print("\n\nSAVE!!\n\n")
