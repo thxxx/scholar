@@ -20,4 +20,4 @@ unzip chromedriver-linux64.zip
 mv chromedriver-linux64/chromedriver /usr/local/bin/
 chmod +x /usr/local/bin/chromedriver
 
-huggingface-cli login
+# huggingface-cli login
