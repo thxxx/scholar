@@ -1,0 +1,6 @@
+{"row_index": 4, "author_id": "FuqqngQAAAAJ", "name": "Jaiyong Lee", "home_link": "http://ubinet.yonsei.ac.kr/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: TimeoutException()"}
+{"row_index": 21, "author_id": "woq_aAEAAAAJ", "name": "Jun'ya Kume", "home_link": "https://jkume0107.wordpress.com/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"row_index": 45, "author_id": "wVbjyqoAAAAJ", "name": "Hyunho Jo", "home_link": "http://vcodecs.com/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: WebDriverException()"}
+{"row_index": 47, "author_id": "ImG3UowAAAAJ", "name": "Yoonjin Kim", "home_link": "http://esl.sookmyung.ac.kr/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: TimeoutException()"}
+{"row_index": 78, "author_id": "ehC0V5sAAAAJ", "name": "Won Jong Yoo", "home_link": "http://ndpl.skku.edu/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: TimeoutException()"}
+{"row_index": 148, "author_id": "lXFtLcYAAAAJ", "name": "Hyunggyu Park", "home_link": "http://chris.kias.re.kr/", "ok": false, "stage": "fetch", "error": "Failed to fetch/extract after retries: TimeoutException()"}

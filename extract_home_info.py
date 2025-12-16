@@ -377,9 +377,9 @@ cost_csv_path = os.path.join(out_dir, f"cost_{run_id}.csv")
 
 done_ids = []
 if os.path.exists(csv_path):
-    df = pd.read_csv(csv_path)
-    results = df.to_dict(orient="records")
-    done_ids = set(df["author_id"].tolist())
+    odf = pd.read_csv(csv_path)
+    results = odf.to_dict(orient="records")
+    done_ids = set(odf["author_id"].tolist())
     print(f"Loaded {len(done_ids)} done ids")
 
 # 비용 로그
@@ -389,12 +389,12 @@ cost_logs = []
 # 혹은 "base_prompt"를 따로 두고 base_prompt + doc 형태로 추천.
 base_prompt = prompt  # 너가 이미 만들어둔 prompt를 base로 둔다고 가정
 
-SAVE_EVERY = 100
+SAVE_EVERY = 20
 PAGE_LOAD_TIMEOUT_SEC = 30
 AFTER_GET_SLEEP_SEC = 2
 RETRY = 2
 
-for i in tqdm(range(10, 30)):
+for i in tqdm(range(len(df))):
     data = df.iloc[i]
     if data.get("author_id", "") in done_ids:
         continue
@@ -424,6 +424,7 @@ for i in tqdm(range(10, 30)):
 
         # 중간 저장
         if len(results) % SAVE_EVERY == 0:
+            print("SAVED ON LINKEDIN")
             dump_jsonl(jsonl_path, results[-SAVE_EVERY:])
             pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
             pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
@@ -529,7 +530,7 @@ for i in tqdm(range(10, 30)):
             "education": json.dumps(output_dict.get("education", []), ensure_ascii=False),
         })
 
-        print(output_dict)
+        print(row_meta['name'], " -- ", output_dict)
 
     except Exception as e:
         err_msg = f"LLM/parse failed: {repr(e)}"
@@ -546,12 +547,13 @@ for i in tqdm(range(10, 30)):
         continue
 
     # --- periodic save ---
-    if len(results) % SAVE_EVERY == 0:
+    if len(results) % SAVE_EVERY == SAVE_EVERY - 1:
         dump_jsonl(jsonl_path, results[-SAVE_EVERY:])
         pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
         pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
-    if i % SAVE_EVERY == SAVE_EVERY - 1:
+    if len(results) % SAVE_EVERY == SAVE_EVERY - 1:
         upload_to_huggingface(csv_path)
+        print(f"\n\nSAVED! {len(results)}\n\n")
 
 # final save
 dump_jsonl(jsonl_path, results)  # 전체 덤프(이미 일부 append 했어도 상관없으면 이렇게)
