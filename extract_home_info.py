@@ -410,13 +410,16 @@ if __name__ == "__main__":
     for i in tqdm(range(starti, endi)):
         data = df.iloc[i]
         if data.get("author_id", "") in done_ids:
+            print("\n중복\n")
             continue
         hl = data.get("home_link", None)
     
         if pd.isna(hl) or not safe_str(hl).strip():
+            print("\nhlhl\n")
             continue
     
         url = safe_str(hl).strip()
+        print(f"Check url : {url}")
     
         row_meta = {
             "row_index": int(i),
@@ -463,10 +466,12 @@ if __name__ == "__main__":
                 extracted_text = return_text(soup)  # 이미 있다고 가정
                 if not extracted_text or len(extracted_text.strip()) < 50:
                     raise ValueError("Extracted text too short (maybe blocked / empty page).")
+                print("성 공")
     
                 break  # 성공
             except Exception as e:
                 last_err = e
+                print("Parsing Error ", e)
                 if attempt < RETRY:
                     time.sleep(1.5 * (attempt + 1))
                     continue
