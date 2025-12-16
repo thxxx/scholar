@@ -415,7 +415,6 @@ if __name__ == "__main__":
         hl = data.get("home_link", None)
     
         if pd.isna(hl) or not safe_str(hl).strip():
-            print("\nhlhl\n")
             continue
     
         url = safe_str(hl).strip()
@@ -495,6 +494,7 @@ if __name__ == "__main__":
     
         # --- LLM call + parse ---
         try:
+            print("LLM 호출 ")
             response = client.chat.completions.create(
                 model="grok-4-1-fast-non-reasoning",
                 messages=[
@@ -551,6 +551,7 @@ if __name__ == "__main__":
             print(row_meta['name'], " -- ", output_dict)
     
         except Exception as e:
+            print("LLM Error ", e)
             err_msg = f"LLM/parse failed: {repr(e)}"
             fail_obj = {
                 **row_meta,
