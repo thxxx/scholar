@@ -1,0 +1,16 @@
+nohup python3 get_profiles.py --idx 0 > log_get_profiles_0.out 2>&1 &
+nohup python3 get_profiles.py --idx 1 > log_get_profiles_1.out 2>&1 &
+nohup python3 get_profiles.py --idx 2 > log_get_profiles_2.out 2>&1 &
+nohup python3 get_profiles.py --idx 3 > log_get_profiles_3.out 2>&1 &
+nohup python3 get_profiles.py --idx 4 > log_get_profiles_4.out 2>&1 &
+nohup python3 get_profiles.py --idx 5 > log_get_profiles_5.out 2>&1 &
+nohup python3 get_profiles.py --idx 6 > log_get_profiles_6.out 2>&1 &
+nohup python3 get_profiles.py --idx 7 > log_get_profiles_7.out 2>&1 &
+nohup python3 get_profiles.py --idx 8 > log_get_profiles_8.out 2>&1 &
+nohup python3 get_profiles.py --idx 9 > log_get_profiles_9.out 2>&1 &
+nohup python3 get_profiles.py --idx 10 > log_get_profiles_10.out 2>&1 &
+nohup python3 get_profiles.py --idx 11 > log_get_profiles_11.out 2>&1 &
+nohup python3 get_profiles.py --idx 12 > log_get_profiles_12.out 2>&1 &
+nohup python3 get_profiles.py --idx 13 > log_get_profiles_13.out 2>&1 &
+nohup python3 get_profiles.py --idx 14 > log_get_profiles_14.out 2>&1 &
+nohup python3 get_profiles.py --idx 15 > log_get_profiles_15.out 2>&1 &

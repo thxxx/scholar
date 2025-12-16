@@ -1,0 +1,5 @@
+chromedriver*
+google-chrome-stable*
+*/ipynb_checkpoints/
+*/__pycache__/
+files/*
