@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import argparse
 
 from utils import upload_to_huggingface, build_driver, grok_api_key
 
@@ -370,201 +371,212 @@ run_id = now_str()
 out_dir = "outputs"
 os.makedirs(out_dir, exist_ok=True)
 
-jsonl_path = os.path.join(out_dir, f"extracted_{run_id}.jsonl")
-fail_jsonl_path = os.path.join(out_dir, f"failed_{run_id}.jsonl")
-csv_path = os.path.join(out_dir, f"extracted_home_info.csv")
-cost_csv_path = os.path.join(out_dir, f"cost_{run_id}.csv")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--num_parts", type=int, default=2)
+    parser.add_argument("--part_idx", type=int, required=True, help="0 ~ num_parts-1")
 
-done_ids = []
-if os.path.exists(csv_path):
-    odf = pd.read_csv(csv_path)
-    results = odf.to_dict(orient="records")
-    done_ids = set(odf["author_id"].tolist())
-    print(f"Loaded {len(done_ids)} done ids")
+    args = parser.parse_args()
 
-# 비용 로그
-cost_logs = []
+    jsonl_path = os.path.join(out_dir, f"extracted_{run_id}.jsonl")
+    fail_jsonl_path = os.path.join(out_dir, f"failed_{run_id}.jsonl")
+    csv_path = os.path.join(out_dir, f"extracted_home_info_{args.part_idx}.csv")
+    cost_csv_path = os.path.join(out_dir, f"cost_{run_id}.csv")
+    
+    done_ids = []
+    if os.path.exists(csv_path):
+        odf = pd.read_csv(csv_path)
+        results = odf.to_dict(orient="records")
+        done_ids = set(odf["author_id"].tolist())
+        print(f"Loaded {len(done_ids)} done ids")
+    
+    # 비용 로그
+    cost_logs = []
+    
+    # 이 루프 밖에 prompt 초기화가 있다면 여기선 prompt를 row마다 새로 만들거나,
+    # 혹은 "base_prompt"를 따로 두고 base_prompt + doc 형태로 추천.
+    base_prompt = prompt  # 너가 이미 만들어둔 prompt를 base로 둔다고 가정
+    
+    SAVE_EVERY = 20
+    PAGE_LOAD_TIMEOUT_SEC = 30
+    AFTER_GET_SLEEP_SEC = 2
+    RETRY = 2
+    
+    import math
+    chunk = math.ceil(len(df) / args.num_parts)
+    starti = args.part_idx * chunk
+    endi = min((args.part_idx + 1) * chunk, len(df))
 
-# 이 루프 밖에 prompt 초기화가 있다면 여기선 prompt를 row마다 새로 만들거나,
-# 혹은 "base_prompt"를 따로 두고 base_prompt + doc 형태로 추천.
-base_prompt = prompt  # 너가 이미 만들어둔 prompt를 base로 둔다고 가정
-
-SAVE_EVERY = 20
-PAGE_LOAD_TIMEOUT_SEC = 30
-AFTER_GET_SLEEP_SEC = 2
-RETRY = 2
-
-for i in tqdm(range(len(df))):
-    data = df.iloc[i]
-    if data.get("author_id", "") in done_ids:
-        continue
-    hl = data.get("home_link", None)
-
-    if pd.isna(hl) or not safe_str(hl).strip():
-        continue
-
-    url = safe_str(hl).strip()
-
-    row_meta = {
-        "row_index": int(i),
-        "author_id": safe_str(data.get("author_id", "")),
-        "name": safe_str(data.get("name", "")),
-        "home_link": url,
-    }
-
-    # LinkedIn은 스킵/별도 처리
-    if "linkedin.com" in url:
-        output_dict = default_output(url)
-        output_dict.update({
-            "page_type": "linkedin",
-        })
-
-        results.append({**row_meta, "ok": True, "output": output_dict, "error": None})
-        success_rows.append({**row_meta, **output_dict, "ok": True})
-
-        # 중간 저장
-        if len(results) % SAVE_EVERY == 0:
-            print("SAVED ON LINKEDIN")
+    for i in tqdm(range(starti, endi)):
+        data = df.iloc[i]
+        if data.get("author_id", "") in done_ids:
+            continue
+        hl = data.get("home_link", None)
+    
+        if pd.isna(hl) or not safe_str(hl).strip():
+            continue
+    
+        url = safe_str(hl).strip()
+    
+        row_meta = {
+            "row_index": int(i),
+            "author_id": safe_str(data.get("author_id", "")),
+            "name": safe_str(data.get("name", "")),
+            "home_link": url,
+        }
+    
+        # LinkedIn은 스킵/별도 처리
+        if "linkedin.com" in url:
+            output_dict = default_output(url)
+            output_dict.update({
+                "page_type": "linkedin",
+            })
+    
+            results.append({**row_meta, "ok": True, "output": output_dict, "error": None})
+            success_rows.append({**row_meta, **output_dict, "ok": True})
+    
+            # 중간 저장
+            if len(results) % SAVE_EVERY == 0:
+                print("SAVED ON LINKEDIN")
+                dump_jsonl(jsonl_path, results[-SAVE_EVERY:])
+                pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
+                pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
+            continue
+    
+        # --- Fetch + extract with retries ---
+        last_err = None
+        extracted_text = None
+    
+        for attempt in range(RETRY + 1):
+            try:
+                drv.get(url)
+                time.sleep(AFTER_GET_SLEEP_SEC)
+    
+                # body 태그 등장 대기
+                WebDriverWait(drv, PAGE_LOAD_TIMEOUT_SEC).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+    
+                html = drv.page_source
+                soup = BeautifulSoup(html, "html.parser")
+    
+                extracted_text = return_text(soup)  # 이미 있다고 가정
+                if not extracted_text or len(extracted_text.strip()) < 50:
+                    raise ValueError("Extracted text too short (maybe blocked / empty page).")
+    
+                break  # 성공
+            except Exception as e:
+                last_err = e
+                if attempt < RETRY:
+                    time.sleep(1.5 * (attempt + 1))
+                    continue
+    
+        if extracted_text is None:
+            err_msg = f"Failed to fetch/extract after retries: {repr(last_err)}"
+            fail_obj = {**row_meta, "ok": False, "stage": "fetch", "error": err_msg}
+            results.append(fail_obj)
+            failed_rows.append(fail_obj)
+            dump_jsonl(fail_jsonl_path, [fail_obj])
+            continue
+    
+        # --- Build prompt per row ---
+        row_prompt = base_prompt + f"""
+    ### owner's name
+    {safe_str(data.get('name', ''))}
+    
+    ### HTML Document
+    {extracted_text}
+    """
+    
+        # --- LLM call + parse ---
+        try:
+            response = client.chat.completions.create(
+                model="grok-4-1-fast-non-reasoning",
+                messages=[
+                    {"role": "system", "content": "You are a html extractor. Return ONLY valid JSON."},
+                    {"role": "user", "content": row_prompt},
+                ],
+            )
+    
+            raw_output = response.choices[0].message.content
+    
+            # 비용 계산
+            try:
+                cost = calc_cost_with_cache(
+                    response.usage,
+                    PRICES["input"],
+                    PRICES["output"],
+                    PRICES["cached"],
+                )
+                dollars = float(cost["total_cost_usd"])
+            except Exception:
+                cost = None
+                dollars = 0.0
+    
+            total_dollars += dollars
+            cost_logs.append({
+                **row_meta,
+                "total_cost_usd": dollars,
+                "usage": json.dumps(getattr(response, "usage", {}), ensure_ascii=False, default=str),
+            })
+    
+            # 출력 정규화
+            output_dict = normalize_output(raw_output, url)
+    
+            results.append({
+                **row_meta,
+                "ok": True,
+                "output": output_dict,
+                "raw_output": raw_output,
+                "error": None,
+            })
+    
+            # tabular로도 저장하기 쉽게 flatten
+            success_rows.append({
+                **row_meta,
+                "ok": True,
+                "email": output_dict.get("email"),
+                "bio": output_dict.get("bio"),
+                "page_type": output_dict.get("page_type"),
+                "related_links": json.dumps(output_dict.get("related_links", []), ensure_ascii=False),
+                "company_experiences": json.dumps(output_dict.get("company_experiences", []), ensure_ascii=False),
+                "education": json.dumps(output_dict.get("education", []), ensure_ascii=False),
+            })
+    
+            print(row_meta['name'], " -- ", output_dict)
+    
+        except Exception as e:
+            err_msg = f"LLM/parse failed: {repr(e)}"
+            fail_obj = {
+                **row_meta,
+                "ok": False,
+                "stage": "llm_or_parse",
+                "error": err_msg,
+                "traceback": traceback.format_exc(limit=3),
+            }
+            results.append(fail_obj)
+            failed_rows.append(fail_obj)
+            dump_jsonl(fail_jsonl_path, [fail_obj])
+            continue
+    
+        # --- periodic save ---
+        if len(results) % SAVE_EVERY == SAVE_EVERY - 1:
             dump_jsonl(jsonl_path, results[-SAVE_EVERY:])
             pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
             pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
-        continue
-
-    # --- Fetch + extract with retries ---
-    last_err = None
-    extracted_text = None
-
-    for attempt in range(RETRY + 1):
-        try:
-            drv.get(url)
-            time.sleep(AFTER_GET_SLEEP_SEC)
-
-            # body 태그 등장 대기
-            WebDriverWait(drv, PAGE_LOAD_TIMEOUT_SEC).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-
-            html = drv.page_source
-            soup = BeautifulSoup(html, "html.parser")
-
-            extracted_text = return_text(soup)  # 이미 있다고 가정
-            if not extracted_text or len(extracted_text.strip()) < 50:
-                raise ValueError("Extracted text too short (maybe blocked / empty page).")
-
-            break  # 성공
-        except Exception as e:
-            last_err = e
-            if attempt < RETRY:
-                time.sleep(1.5 * (attempt + 1))
-                continue
-
-    if extracted_text is None:
-        err_msg = f"Failed to fetch/extract after retries: {repr(last_err)}"
-        fail_obj = {**row_meta, "ok": False, "stage": "fetch", "error": err_msg}
-        results.append(fail_obj)
-        failed_rows.append(fail_obj)
-        dump_jsonl(fail_jsonl_path, [fail_obj])
-        continue
-
-    # --- Build prompt per row ---
-    row_prompt = base_prompt + f"""
-### owner's name
-{safe_str(data.get('name', ''))}
-
-### HTML Document
-{extracted_text}
-"""
-
-    # --- LLM call + parse ---
-    try:
-        response = client.chat.completions.create(
-            model="grok-4-1-fast-non-reasoning",
-            messages=[
-                {"role": "system", "content": "You are a html extractor. Return ONLY valid JSON."},
-                {"role": "user", "content": row_prompt},
-            ],
-        )
-
-        raw_output = response.choices[0].message.content
-
-        # 비용 계산
-        try:
-            cost = calc_cost_with_cache(
-                response.usage,
-                PRICES["input"],
-                PRICES["output"],
-                PRICES["cached"],
-            )
-            dollars = float(cost["total_cost_usd"])
-        except Exception:
-            cost = None
-            dollars = 0.0
-
-        total_dollars += dollars
-        cost_logs.append({
-            **row_meta,
-            "total_cost_usd": dollars,
-            "usage": json.dumps(getattr(response, "usage", {}), ensure_ascii=False, default=str),
-        })
-
-        # 출력 정규화
-        output_dict = normalize_output(raw_output, url)
-
-        results.append({
-            **row_meta,
-            "ok": True,
-            "output": output_dict,
-            "raw_output": raw_output,
-            "error": None,
-        })
-
-        # tabular로도 저장하기 쉽게 flatten
-        success_rows.append({
-            **row_meta,
-            "ok": True,
-            "email": output_dict.get("email"),
-            "bio": output_dict.get("bio"),
-            "page_type": output_dict.get("page_type"),
-            "related_links": json.dumps(output_dict.get("related_links", []), ensure_ascii=False),
-            "company_experiences": json.dumps(output_dict.get("company_experiences", []), ensure_ascii=False),
-            "education": json.dumps(output_dict.get("education", []), ensure_ascii=False),
-        })
-
-        print(row_meta['name'], " -- ", output_dict)
-
-    except Exception as e:
-        err_msg = f"LLM/parse failed: {repr(e)}"
-        fail_obj = {
-            **row_meta,
-            "ok": False,
-            "stage": "llm_or_parse",
-            "error": err_msg,
-            "traceback": traceback.format_exc(limit=3),
-        }
-        results.append(fail_obj)
-        failed_rows.append(fail_obj)
-        dump_jsonl(fail_jsonl_path, [fail_obj])
-        continue
-
-    # --- periodic save ---
-    if len(results) % SAVE_EVERY == SAVE_EVERY - 1:
-        dump_jsonl(jsonl_path, results[-SAVE_EVERY:])
-        pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
-        pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
-    if len(results) % SAVE_EVERY == SAVE_EVERY - 1:
-        upload_to_huggingface(csv_path)
-        print(f"\n\nSAVED! {len(results)}\n\n")
-
-# final save
-dump_jsonl(jsonl_path, results)  # 전체 덤프(이미 일부 append 했어도 상관없으면 이렇게)
-pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
-pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
-upload_to_huggingface(csv_path)
-
-print(f"\nDONE. success={len(success_rows)}, failed={len(failed_rows)}")
-print(f"Total cost (USD): {total_dollars:.6f}")
-print("Saved:")
-print(" -", jsonl_path)
-print(" -", fail_jsonl_path)
-print(" -", csv_path)
-print(" -", cost_csv_path)
+            upload_to_huggingface(csv_path)
+            print(f"\n\nSAVED! {len(results)}\n\n")
+    
+    # final save
+    dump_jsonl(jsonl_path, results)  # 전체 덤프(이미 일부 append 했어도 상관없으면 이렇게)
+    pd.DataFrame(success_rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
+    pd.DataFrame(cost_logs).to_csv(cost_csv_path, index=False, encoding="utf-8-sig")
+    upload_to_huggingface(csv_path)
+    
+    print(f"\nDONE. success={len(success_rows)}, failed={len(failed_rows)}")
+    print(f"Total cost (USD): {total_dollars:.6f}")
+    print("Saved:")
+    print(" -", jsonl_path)
+    print(" -", fail_jsonl_path)
+    print(" -", csv_path)
+    print(" -", cost_csv_path)
